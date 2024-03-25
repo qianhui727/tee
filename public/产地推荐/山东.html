@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+</head>
+<body>
+
+        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="d1468f0ef864495d9a0a4c009926c61c" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > 山东</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>标题</th>
+            <th>评分</th>
+            <th>品牌</th>
+            <th>产地</th>
+            <th>茶类</th>
+            <th>详情链接</th>
+            <th>荐指数</th>
+            <th>总评</th>
+            <th>茶语排行</th>
+            <th>茶语分类排行</th>
+            <th>综合评分排行</th>
+            <th>热搜排行</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>崂绿松针</td>
+            <td>8.9</td>
+            <td>沃土</td>
+            <td>山东</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2289</td>
+            <td>3</td>
+            <td>这款来自山东的绿茶，并没有满嘴的烧饼味，而是满口的炒瓜子香，外形整体偏纤细苗条，茶汤鲜甜爽口，甜度细腻诱人，有回甘生津，十分清爽。但茶汤的厚度一般，滋味下降略快了些。</td>
+            <td>255</td>
+            <td>62</td>
+            <td>1177</td>
+            <td>541</td>
+        </tr>
+        <tr>
+            <td>崂山红茶·婵</td>
+            <td>8.8</td>
+            <td>寂境</td>
+            <td>山东</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/144</td>
+            <td>3</td>
+            <td>干茶：有造型特色，油</td>
+            <td>409</td>
+            <td>56</td>
+            <td>764</td>
+            <td>2473</td>
+        </tr>
+        <tr>
+            <td>日照绿茶</td>
+            <td>8.7</td>
+            <td>营青</td>
+            <td>山东</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2106</td>
+            <td>3</td>
+            <td>这是一款选料干净，工艺标准的绿茶。<br>整体香气栗香明显，持久，带有海苔香味，口感丰富，鲜爽度高，有比较好的回甘度，生津持久。不足之处叶底芽叶稍有断碎。<br>整体协调性好，耐冲泡度较好。<br></td>
+            <td>635</td>
+            <td>150</td>
+            <td>432</td>
+            <td>2428</td>
+        </tr>
+        <tr>
+            <td>崂山绿茶</td>
+            <td>8.7</td>
+            <td>崂乡</td>
+            <td>山东</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1629</td>
+            <td>3</td>
+            <td>这款崂山绿茶外形隽美，油</td>
+            <td>635</td>
+            <td>150</td>
+            <td>432</td>
+            <td>2418</td>
+        </tr>
+        <tr>
+            <td>崂绿扁茶</td>
+            <td>8.7</td>
+            <td>沃土</td>
+            <td>山东</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2300</td>
+            <td>3</td>
+            <td>干茶扁平匀整，香气清扬，清甜香、花香和鲜浓的茶汤融合度好，茶汤甜度持久，虽带有清苦，苦化甘快，回甘明显，口中留有淡淡花香。整体品质优秀。</td>
+            <td>635</td>
+            <td>150</td>
+            <td>1177</td>
+            <td>336</td>
+        </tr>
+        <tr>
+            <td>日照绿茶</td>
+            <td>8.6</td>
+            <td>御青</td>
+            <td>山东</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2595</td>
+            <td>3</td>
+            <td>这款一款稍次，但内质较好的日照绿茶。<br>整体香气干闻嫩玉米甜香显露，香气栗香持久，略有高火香，香气层次性明显，滋味鲜醇甘爽，回甘生津好。<br>整体协调性好，耐冲泡度较高。<br></td>
+            <td>953</td>
+            <td>221</td>
+            <td>2179</td>
+            <td>390</td>
+        </tr>
+        <tr>
+            <td>崂山绿茶·鸣蜩</td>
+            <td>8.6</td>
+            <td>寂境</td>
+            <td>山东</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/145</td>
+            <td>3</td>
+            <td>干茶：造型特色明显，干茶外形较好。汤色：汤色变化正常，色泽和明亮度俱佳。气味：香气</td>
+            <td>953</td>
+            <td>221</td>
+            <td>1177</td>
+            <td>1883</td>
+        </tr>
+        <tr>
+            <td>崂山绿茶 顶级扁茶</td>
+            <td>8.6</td>
+            <td>沃土春山</td>
+            <td>山东</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1938</td>
+            <td>3</td>
+            <td>很正宗的一款山东崂山扁形农家茶，色泽墨绿，滋味鲜浓，香气透着熟板栗香，由于用柴火，香气中带烟味。嫩度好，可以看出茶叶生态环境较好，是款不错的山东绿茶。</td>
+            <td>953</td>
+            <td>221</td>
+            <td>2937</td>
+            <td>1123</td>
+        </tr>
+        <tr>
+            <td>齐鲁干烘</td>
+            <td>8.6</td>
+            <td>福驾</td>
+            <td>山东</td>
+            <td>黄茶</td>
+            <td>https://chaping.chayu.com/tea/2540</td>
+            <td>3</td>
+            <td>这是一款让人惊喜并且印象深刻的黄大茶。没有华丽优美的外表，但是滋味浓，甜醇甘润，喉咙有留香，回甘强劲。香气滋味非常接近岩茶，发酵程度较深，几乎没有苦涩味，烘培香浓郁悠长，耐泡程度也十分令人满意。很具有黄大茶的特征。</td>
+            <td>953</td>
+            <td>48</td>
+            <td>1177</td>
+            <td>2790</td>
+        </tr>
+        <tr>
+            <td>崂山绿茶 顶级扁茶</td>
+            <td>8.6</td>
+            <td>沃土春山</td>
+            <td>山东</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1269</td>
+            <td>3</td>
+            <td>很正宗的一款山东崂山扁形农家茶，色泽墨绿，滋味鲜浓，香气透着熟板栗香，由于用柴火，香气中带烟味。嫩度好，可以看出茶叶生态环境较好，是款不错的山东绿茶。</td>
+            <td>953</td>
+            <td>221</td>
+            <td>764</td>
+            <td>2252</td>
+        </tr>
+        <tr>
+            <td>崂山绿茶</td>
+            <td>8.5</td>
+            <td>崂茗</td>
+            <td>山东</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/3890</td>
+            <td>3</td>
+            <td>这款绿茶没有突出优点，但整体品质还不错。<br>干茶等级不高，冲泡后汤中炒豆香明显持久，滋味甜鲜，有一定的愉悦性，口腔有回甘生津和清凉感。但是涩感较明显，化开速度不快。</td>
+            <td>1426</td>
+            <td>330</td>
+            <td>1681</td>
+            <td>1205</td>
+        </tr>
+        <tr>
+            <td>日照绿茶 </td>
+            <td>8.5</td>
+            <td>岽青</td>
+            <td>山东</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2218</td>
+            <td>3</td>
+            <td>这款来自北方的绿茶，干茶外形虽有瑕疵，但整体还算比较匀整，板栗香中夹带鲜爽的气息，滋味鲜爽清甜，但是鲜度不持久，明显的涩感能较快化开，有持续的回甘生津。</td>
+            <td>1426</td>
+            <td>330</td>
+            <td>1681</td>
+            <td>962</td>
+        </tr>
+        <tr>
+            <td>日照绿茶</td>
+            <td>8.5</td>
+            <td>圣谷山</td>
+            <td>山东</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1522</td>
+            <td>3</td>
+            <td>口感醇厚，板栗香气，卷状型，汤色黄绿明亮。</td>
+            <td>1426</td>
+            <td>330</td>
+            <td>2179</td>
+            <td>2948</td>
+        </tr>
+        <tr>
+            <td>崂山绿茶·春芽特级</td>
+            <td>8.4</td>
+            <td>三亩良田</td>
+            <td>山东</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2601</td>
+            <td>3</td>
+            <td>一款具有典型的豆香，滋味甘鲜，较为耐泡的绿茶，但外形不及名优茶外形赏心悦目。</td>
+            <td>1866</td>
+            <td>410</td>
+            <td>2590</td>
+            <td>1893</td>
+        </tr>
+        <tr>
+            <td>崂山红茶</td>
+            <td>8.4</td>
+            <td>崂山</td>
+            <td>山东</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/4001</td>
+            <td>3</td>
+            <td>该款茶烘焙用力过猛，烘焙过重，导致香气中烘焙的气息大大超过红茶的香甜，滋味上火味也十分明显且贯穿始终，大大掩盖了红茶的甜润。使得整个品茶的感受显得简单粗暴，令人不想再次回味。</td>
+            <td>1866</td>
+            <td>284</td>
+            <td>1681</td>
+            <td>1009</td>
+        </tr>
+        <tr>
+            <td>宗师红茶</td>
+            <td>8.4</td>
+            <td>树时光</td>
+            <td>山东</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/1235</td>
+            <td>3</td>
+            <td>这款红茶，松烟香明显而且汤内也能清晰感受到。茶汤滋味较厚，微甜、带果</td>
+            <td>1866</td>
+            <td>284</td>
+            <td>2179</td>
+            <td>3511</td>
+        </tr>
+        <tr>
+            <td>崂山红茶</td>
+            <td>8.3</td>
+            <td>崂茗</td>
+            <td>山东</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/3988</td>
+            <td>3</td>
+            <td>喝起来火气明显的茶。<br>茶汤闻起来和喝起来都有明显火气；<br>茶汤滋味较薄，有一定甜润感和鲜度，无苦无涩，生津缓慢；<br></td>
+            <td>2302</td>
+            <td>364</td>
+            <td>1681</td>
+            <td>1533</td>
+        </tr>
+        <tr>
+            <td>崂山红茶</td>
+            <td>8.3</td>
+            <td>崂陈</td>
+            <td>山东</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/3989</td>
+            <td>3</td>
+            <td>一款火气重，品质平平的茶。<br>茶汤带明显高火气，一直不退；<br>茶汤滋味较甜，有生津，略涩；<br><br></td>
+            <td>2302</td>
+            <td>364</td>
+            <td>1681</td>
+            <td>1749</td>
+        </tr>
+        <tr>
+            <td>极北冰红</td>
+            <td>8.3</td>
+            <td>蒙山龙雾</td>
+            <td>山东</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/4089</td>
+            <td>3</td>
+            <td>这款茶香气蜜甜香带桂圆香，但略带生青气，汤中带甜香，口腔中略有蜜香，茶汤略薄，且回味差，入口略有甜度，较爽口，略有涩感化开较慢，生津回甘稍弱。</td>
+            <td>2302</td>
+            <td>364</td>
+            <td>1177</td>
+            <td>2099</td>
+        </tr>
+        <tr>
+            <td>茉莉花茶</td>
+            <td>8.2</td>
+            <td>车里湾</td>
+            <td>山东</td>
+            <td>花茶</td>
+            <td>https://chaping.chayu.com/tea/3942</td>
+            <td>3</td>
+            <td>一款香气低沉，略带苦涩感的茉莉花茶。<br>花香较低沉，有高火味，入口之后口感平和，生津回甘迅速，但是带有淡淡的苦涩感，第一泡给人的香气感受最好，但是仍然缺乏鲜灵度，后面香气下降很快。</td>
+            <td>2669</td>
+            <td>122</td>
+            <td>1177</td>
+            <td>718</td>
+        </tr>
+        <tr>
+            <td>崂山红茶</td>
+            <td>8.2</td>
+            <td>寂境</td>
+            <td>山东</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/4214</td>
+            <td>3</td>
+            <td>一款风格不突出，表现中肯的红茶。<br>这款茶香气、滋味特点都并不明显，但是香气、滋味表现都比较中肯，厚度稍差，做一款口粮茶是不错的选择。<br></td>
+            <td>2669</td>
+            <td>449</td>
+            <td>2179</td>
+            <td>1762</td>
+        </tr>
+        <tr>
+            <td>特级崂山红茶</td>
+            <td>8.2</td>
+            <td>崂茗</td>
+            <td>山东</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/4022</td>
+            <td>3</td>
+            <td>一款茶叶等级一般，工艺有缺陷的红茶。<br>茶叶香气火工过高，香甜，带有焦糖香；整体茶汤滋味平淡，入口微苦，滋味甜和，较顺口，涩感较显，停留口腔时间长，有回甘生津。<br></td>
+            <td>2669</td>
+            <td>449</td>
+            <td>2590</td>
+            <td>1807</td>
+        </tr>
+        <tr>
+            <td>崂池云峰</td>
+            <td>8.2</td>
+            <td>崂池</td>
+            <td>山东</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2547</td>
+            <td>3</td>
+            <td>一款外形秀美的红茶，性价比极差的红茶。<br>干茶、滋味和汤色都表现不错，原料紧细，茶汤橙红，汤感顺滑，有青涩味，能化开，略带生津回甘。<br>总体协调性一般，耐冲泡度正常。</td>
+            <td>2669</td>
+            <td>449</td>
+            <td>2937</td>
+            <td>3987</td>
+        </tr>
+        <tr>
+            <td>日荷清绿茶</td>
+            <td>8.1</td>
+            <td>日荷清</td>
+            <td>山东</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/582</td>
+            <td>3</td>
+            <td>干茶：干茶的条比较紧且细，</td>
+            <td>2971</td>
+            <td>594</td>
+            <td>4173</td>
+            <td>3569</td>
+        </tr>
+        <tr>
+            <td>崂山红茶·莺时</td>
+            <td>8.1</td>
+            <td>寂境</td>
+            <td>山东</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/146</td>
+            <td>3</td>
+            <td>干茶：条索紧卷，肥嫩</td>
+            <td>2971</td>
+            <td>512</td>
+            <td>3174</td>
+            <td>3834</td>
+        </tr>
+        <tr>
+            <td>齐鲁红工夫红茶</td>
+            <td>8.0</td>
+            <td>易养茶庄园	</td>
+            <td>山东</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/3915</td>
+            <td>3</td>
+            <td>这款茶原料粗老，夏天采摘，茶多酚含量略高，会造成一定程度的苦涩。制作风格为高火香，焦味明显，适合北方茶客品饮。滋味醇和较浓，甜度好，回甘迅速，但是不耐泡，冲泡后期很快出现青臭味。<br></td>
+            <td>3214</td>
+            <td>574</td>
+            <td>3174</td>
+            <td>702</td>
+        </tr>
+        <tr>
+            <td>齐鲁干烘茶</td>
+            <td>7.9</td>
+            <td>福驾</td>
+            <td>山东</td>
+            <td>黄茶</td>
+            <td>https://chaping.chayu.com/tea/1566</td>
+            <td>2</td>
+            <td>一款选料较为粗大、滋味平淡的黄茶。干茶呈片状，掺杂粗大的茎梗，选料粗老，整个冲泡过程中火味高，滋味平淡，汤水的厚度和回味均较差。<br></td>
+            <td>3463</td>
+            <td>143</td>
+            <td>3746</td>
+            <td>1964</td>
+        </tr>
+        <tr>
+            <td>特级崂山红茶</td>
+            <td>7.9</td>
+            <td>崂茗</td>
+            <td>山东</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2546</td>
+            <td>2</td>
+            <td>一款外形和滋味都欠佳的红茶，不推荐购买。<br>香气略带烟味和青臭味，滋味较厚，略有青涩味，化开慢，刮嗓子。<br>总体协调性一般，耐冲泡度正常。</td>
+            <td>3463</td>
+            <td>624</td>
+            <td>3649</td>
+            <td>4025</td>
+        </tr>
+        <tr>
+            <td>齐鲁干烘</td>
+            <td>7.8</td>
+            <td>五福茶业</td>
+            <td>山东</td>
+            <td>黄茶</td>
+            <td>https://chaping.chayu.com/tea/3898</td>
+            <td>2</td>
+            <td>一款外形欠匀齐、汤感粗糙、老火纯正持久的黄茶。<br>香气纯正持久，无异味，老火味明显，带有淡淡果香。滋味厚，回甘尚可，但汤感粗糙、不够顺滑，有一定耐泡度。叶底色泽不均匀，乌褐中夹杂着墨绿色叶片。</td>
+            <td>3624</td>
+            <td>149</td>
+            <td>3372</td>
+            <td>1043</td>
+        </tr>
+        <tr>
+            <td>日照绿茶</td>
+            <td>7.8</td>
+            <td>茶耶棒</td>
+            <td>山东</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2390</td>
+            <td>2</td>
+            <td>一款高性价比的山东绿茶。香气清扬，嫩香和花香持久，茶汤鲜爽甜柔，厚度一般，回甘生津好。但可惜的是中期稍带有糊味。</td>
+            <td>3624</td>
+            <td>716</td>
+            <td>2590</td>
+            <td>1017</td>
+        </tr>
+        <tr>
+            <td>崂山红茶</td>
+            <td>7.8</td>
+            <td>三亩良田</td>
+            <td>山东</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2649</td>
+            <td>2</td>
+            <td>一款制作工艺还存在缺陷的红茶，不推荐购买。<br>香气略带炒米香，青味更持久。入口顺滑，但青涩味重，化不开，喉底发干。<br>总体协调性一般，耐冲泡度正常。<br></td>
+            <td>3624</td>
+            <td>653</td>
+            <td>3843</td>
+            <td>3611</td>
+        </tr>
+        <tr>
+            <td>崂山红</td>
+            <td>7.7</td>
+            <td>崂乡</td>
+            <td>山东</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2596</td>
+            <td>2</td>
+            <td>一款发酵偏轻，总体品质较差的红茶，不推荐购买。<br>香气带高火香以及发酵的青味，不愉悦，滋味平淡，青涩味明显，化开慢，生津不明显，品质毫无亮点。<br>总体协调性一般，耐冲泡度正常。</td>
+            <td>3753</td>
+            <td>671</td>
+            <td>3524</td>
+            <td>1070</td>
+        </tr>
+        <tr>
+            <td>崂山红茶</td>
+            <td>7.7</td>
+            <td>茶耶棒</td>
+            <td>山东</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2647</td>
+            <td>2</td>
+            <td>一款香气和滋味都一般，性价比差的红茶。<br>香气有烟味，青臭味持久，汤感顺滑，爽口性较好，不足之处在于酸味重，青涩味重，难化开，喉底略干。<br>总体协调性一般，耐冲泡度正常。</td>
+            <td>3753</td>
+            <td>671</td>
+            <td>3746</td>
+            <td>2929</td>
+        </tr>
+        <tr>
+            <td>日照绿茶 </td>
+            <td>7.7</td>
+            <td>鲁裕春</td>
+            <td>山东</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/434</td>
+            <td>2</td>
+            <td>干茶：条索尚整齐，但由于加工不当导致泡点明显；色泽墨绿有光泽。汤色：茶汤黄浓明亮。 头三泡汤色变化不大，应该是内质很丰富的缘故。气味：头两泡有明显的板栗香，香气高扬，持久度好。滋味：前两泡滋味醇厚，鲜爽回甘较快，且明显，无</td>
+            <td>3753</td>
+            <td>744</td>
+            <td>4252</td>
+            <td>3583</td>
+        </tr>
+        <tr>
+            <td>极北云岫日照红茶</td>
+            <td>7.7</td>
+            <td>极北云岫</td>
+            <td>山东</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/497</td>
+            <td>2</td>
+            <td>干茶：条索较为紧细，微有</td>
+            <td>3753</td>
+            <td>671</td>
+            <td>3174</td>
+            <td>3355</td>
+        </tr>
+        <tr>
+            <td>清韵日照绿茶</td>
+            <td>7.6</td>
+            <td>御青</td>
+            <td>山东</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/457</td>
+            <td>2</td>
+            <td>干茶：色泽欠佳，条索紧结，欠，多断碎，洁净。汤色：汤色浅黄绿色，明亮度好。气味：香气浓郁高长，持久性较好。滋味：茶汤滋味醇和爽口，有回甘，耐泡性好。：色泽黄绿，叶质柔软，多为一芽二叶，叶面欠完整，欠。</td>
+            <td>3838</td>
+            <td>762</td>
+            <td>3372</td>
+            <td>2050</td>
+        </tr>
+        <tr>
+            <td>崂池云峰绿茶</td>
+            <td>6.8</td>
+            <td>崂池</td>
+            <td>山东</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/413</td>
+            <td>0</td>
+            <td>干茶：这款茶的外形属于绿茶中的曲型茶，条索紧细，颜色暗绿，欠光泽，</td>
+            <td>4242</td>
+            <td>832</td>
+            <td>3969</td>
+            <td>3590</td>
+        </tr>
+        <tr>
+            <td>崂池云峰茶红茶</td>
+            <td>6.8</td>
+            <td>崂池</td>
+            <td>山东</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/414</td>
+            <td>0</td>
+            <td>干茶：色泽乌</td>
+            <td>4242</td>
+            <td>756</td>
+            <td>3916</td>
+            <td>3797</td>
+        </tr>
+        <tr>
+            <td>崂山红茶</td>
+            <td>6.5</td>
+            <td>沃土</td>
+            <td>山东</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2382</td>
+            <td>0</td>
+            <td>一款加工从头到尾失败的红茶，不推荐饮用。<br>过度高火烘焙，使得茶叶散发出不愉快的焦糊味。<br>明显发酵不足，滋味青涩明显，酸明显，简直难以入口。</td>
+            <td>4311</td>
+            <td>772</td>
+            <td>4062</td>
+            <td>945</td>
+        </tr>
+        <tr>
+            <td>日照碧波绿茶</td>
+            <td>6.0</td>
+            <td>日照碧波</td>
+            <td>山东</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/433</td>
+            <td>0</td>
+            <td>干茶：条索卷曲，欠紧实，色暗绿，无光泽，</td>
+            <td>4359</td>
+            <td>847</td>
+            <td>4015</td>
+            <td>3371</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+
+</body>
+</html>

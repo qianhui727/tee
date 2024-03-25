@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>第一个 ECharts 实例</title>
+    <!-- 引入 echarts.js -->
+    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+</head>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="width: 200px;height:125px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+ 
+        // 指定图表的配置项和数据
+        var datas = {
+        id: "echartPie",
+        value: [61, 23],
+        legend: ["正向", "负向"],
+        color: ["#B0C4DE", "#98FB98"],
+        tooltipShow: false,    //设置悬浮提示显示              --默认显示true
+        hoverAnimation: false, //设置鼠标悬浮点击饼图动画效果  --默认开启动画true
+        title: "观点之整体",
+      };
+      var seriesData = [];
+      var ssss = []
+      datas.value.forEach(function (item, index) {
+        seriesData.push({
+          value: item,
+          name: datas.legend[index],
+          color: datas.color[index],
+        });
+        ssss.push({
+          value: item,
+          name: datas.legend[0],
+        })
+      });
+var option = {
+        backgroundColor: "#fff",
+        title: {
+          x: "2%",
+          y: "2%",
+          textStyle: {
+            fontWeight: 400,
+            fontSize: 16,
+            color: "#687284",
+          },
+          text: datas.title || "",
+        },
+        tooltip: {
+          trigger: "item",
+          show: datas.tooltipShow === false ? false : true,
+        },
+        legend: {
+          orient: "horizontal",
+          top: 16,
+          icon: "circle",
+          selectedMode: false,
+          itemWidth: 6,
+          itemHeight: 6,
+          itemGap: 6,
+          borderRadius: 6,
+          data: datas.legend,
+        },
+        series: [
+          {
+            type: "pie",
+            hoverAnimation: datas.hoverAnimation === false ? false : true,
+            radius: ["40%", "67%"],
+            color: datas.color,
+            itemStyle: {
+              borderRadius: 60,
+            },
+            label: {
+              normal: {
+                position: "inner",
+                formatter: function (param) {
+                  console.log('饼图', param)
+                  if (!param.percent) return "";
+                  var f = Math.round(param.percent * 10) / 10;
+                  var s = f.toString();
+                  var rs = s.indexOf(".");
+                  if (rs < 0) {
+                    rs = s.length;
+                    s += ".";
+                  }
+                  while (s.length <= rs + 1) {
+                    s += "0";
+                  }
+                  return s + "%";
+                },
+                textStyle: {
+                  color: "#fff",
+                  fontSize: 12,
+                },
+              },
+            },
+            labelLine: {
+              normal: {
+                show: false,
+              },
+            },
+            data: seriesData,
+          },
+          {
+            name: '背景',
+            type: 'pie',
+            radius: ["40%", "67%"],
+            label: {
+              show: false,
+            },
+            data: [
+              {
+                value: 20,
+                hoverAnimation: false,
+                itemStyle: {
+                  normal: {
+                    color: {
+                      type: 'linear',
+                      colorStops: [
+                        { offset: 0, color: '#B0C4DE' },
+                      ],
+                    }
+                  },
+                },
+              }
+            ],
+            z: 0
+          },
+        ],
+      };
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
+</body>
+</html>

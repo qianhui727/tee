@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+</head>
+<body>
+
+        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="75dc99bbc0a347b387cca57a4432efe4" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > 海南</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>标题</th>
+            <th>评分</th>
+            <th>品牌</th>
+            <th>产地</th>
+            <th>茶类</th>
+            <th>详情链接</th>
+            <th>荐指数</th>
+            <th>总评</th>
+            <th>茶语排行</th>
+            <th>茶语分类排行</th>
+            <th>综合评分排行</th>
+            <th>热搜排行</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>野生红茶</td>
+            <td>8.9</td>
+            <td>五指雨林</td>
+            <td>海南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/1558</td>
+            <td>3</td>
+            <td>是一款原料十分细嫩考究的红茶，花果香特质明显，汤色始终红艳透亮，滋味鲜浓，但是由于原料太过细嫩，整体的耐泡度有所下降，最好的口感只在前三泡得以展现。</td>
+            <td>255</td>
+            <td>26</td>
+            <td>2590</td>
+            <td>1482</td>
+        </tr>
+        <tr>
+            <td>五指山水满香红茶</td>
+            <td>8.8</td>
+            <td>椰仙</td>
+            <td>海南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/1556</td>
+            <td>3</td>
+            <td>既有小种悠长的花甜香，又有茶的浓厚回甘，茶汤金红明亮，红匀柔亮，是一款非常清甜甘醇的红茶。</td>
+            <td>409</td>
+            <td>56</td>
+            <td>764</td>
+            <td>1999</td>
+        </tr>
+        <tr>
+            <td>白马君红</td>
+            <td>8.6</td>
+            <td>茶香园</td>
+            <td>海南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/1599</td>
+            <td>3</td>
+            <td>一款以甜花香为主的红茶。干茶细紧油</td>
+            <td>953</td>
+            <td>136</td>
+            <td>1177</td>
+            <td>3300</td>
+        </tr>
+        <tr>
+            <td>火山岩红茶</td>
+            <td>8.6</td>
+            <td>椰仙</td>
+            <td>海南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/3930</td>
+            <td>3</td>
+            <td>这款红茶的香气滋味表现均较好。<br>冲泡初期有着舒适的甜香和红薯香，接着是甜果香持续到最后一泡，香随茶汤下咽后有甜香留存。整体茶汤厚度较好，滋味甜润、略有鲜爽感，甘甜度比较惹人喜欢，口腔有持续的回甘和清凉感。但是涩感略明显、且化开的速度略慢。<br></td>
+            <td>953</td>
+            <td>136</td>
+            <td>764</td>
+            <td>1252</td>
+        </tr>
+        <tr>
+            <td>一级白沙绿茶</td>
+            <td>8.5</td>
+            <td>白沙牌</td>
+            <td>海南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2123</td>
+            <td>3</td>
+            <td>一款性价比好，没明显缺点的大宗炒青绿茶。<br>这个茶从外形上看，并不一定给人好感，但其饱满的内质，令人回味有余。整体香气清香鲜活，带有愉人的甜香，香融于茶汤，汤感较厚，滋味较鲜活，有一定的爽口性，带有玉米甜味，茶汤涩感虽重，但化开快。<br>总体协调性好，耐冲泡度高。<br></td>
+            <td>1426</td>
+            <td>330</td>
+            <td>1681</td>
+            <td>2193</td>
+        </tr>
+        <tr>
+            <td>白马君红</td>
+            <td>8.5</td>
+            <td>白马嶺</td>
+            <td>海南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/4044</td>
+            <td>3</td>
+            <td>这款茶干茶显梗，碎茶多且以叶片为主，冲泡后，有较纯的蜜甜香，茶汤甜香明显，并留于口腔，入口甜，稍有涩感但不持久，喝完口腔和喉咙较舒爽，且甘甜味持久。<br><br></td>
+            <td>1426</td>
+            <td>207</td>
+            <td>1681</td>
+            <td>1465</td>
+        </tr>
+        <tr>
+            <td>五指山水满香高山绿茶</td>
+            <td>8.3</td>
+            <td>椰仙</td>
+            <td>海南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1822</td>
+            <td>3</td>
+            <td>这款绿茶外形呈直条型，条索紧结，汤色黄绿，清香明显，滋味整体较平和，入口甜。</td>
+            <td>2302</td>
+            <td>464</td>
+            <td>3174</td>
+            <td>2625</td>
+        </tr>
+        <tr>
+            <td>五指山红金毫</td>
+            <td>8.3</td>
+            <td>三利</td>
+            <td>海南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/316</td>
+            <td>3</td>
+            <td>干茶：条索尚紧实，稍峰苗，色泽金黄亮洁带墨绿，尚</td>
+            <td>2302</td>
+            <td>364</td>
+            <td>1681</td>
+            <td>3103</td>
+        </tr>
+        <tr>
+            <td>一级白沙绿茶</td>
+            <td>8.3</td>
+            <td>白沙牌</td>
+            <td>海南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/4428</td>
+            <td>3</td>
+            <td>一款原料粗老，滋味顺口的绿茶。<br>茶汤香气高爽，有一种豆沙的香气，带有海苔的香气；茶汤也有海洋特有的鲜味，滋味较浓，有一定甜度，整体协调度高。<br></td>
+            <td>2302</td>
+            <td>464</td>
+            <td>2590</td>
+            <td>1347</td>
+        </tr>
+        <tr>
+            <td>白马君红</td>
+            <td>8.2</td>
+            <td>逸品霖</td>
+            <td>海南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/1557</td>
+            <td>3</td>
+            <td>一款花果香特点还算明显的红茶，但香气，滋味都不够持久，</td>
+            <td>2669</td>
+            <td>449</td>
+            <td>3524</td>
+            <td>2589</td>
+        </tr>
+        <tr>
+            <td>红醉</td>
+            <td>8.2</td>
+            <td>妙自然</td>
+            <td>海南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/4177</td>
+            <td>3</td>
+            <td>一款滋味浓厚，香气一般的红碎茶。<br>香气以甜花香为主，入口的滋味甘甜、浓厚，但持久度不够，有迅速的回甘，耐泡度不足，二泡即出现不易散去的涩感，作为调饮的原料应该是不错的选择。<br><br></td>
+            <td>2669</td>
+            <td>449</td>
+            <td>1681</td>
+            <td>4030</td>
+        </tr>
+        <tr>
+            <td>火山岩骏眉</td>
+            <td>8.2</td>
+            <td>椰仙</td>
+            <td>海南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/1658</td>
+            <td>3</td>
+            <td>一款原料粗老，香气有问题的工夫红茶。干茶漂亮，此茶香气花果香，但不纯，带青气。入口味先是甜醇，吞后略苦，容易留涩底，饮后喉咙有发干，不舒服的状况。</td>
+            <td>2669</td>
+            <td>449</td>
+            <td>3372</td>
+            <td>2702</td>
+        </tr>
+        <tr>
+            <td>白沙绿茶</td>
+            <td>8.2</td>
+            <td>白沙牌</td>
+            <td>海南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/3289</td>
+            <td>3</td>
+            <td>这是一款外形一般、内质滋味尚可的茶。<br>干茶是炒板栗香，茶汤香气主体为板栗香，香气不算高扬但比较持久；茶汤顺滑甜润，滋味较为浓厚，涩味化开快。<br>茶水协调性较好，耐泡度尚可。<br></td>
+            <td>2669</td>
+            <td>534</td>
+            <td>2937</td>
+            <td>3771</td>
+        </tr>
+        <tr>
+            <td>火山岩红茶</td>
+            <td>8.1</td>
+            <td>椰仙</td>
+            <td>海南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2626</td>
+            <td>3</td>
+            <td>一款储存和工艺略有问题，滋味和香气都表现平平的红茶。<br>香气总体纯正略带塑料味，入口略涩，略有青味，生津慢，顺滑度一般，爽口度较好。<br>总体协调性一般，耐冲泡度正常。</td>
+            <td>2971</td>
+            <td>512</td>
+            <td>4308</td>
+            <td>3107</td>
+        </tr>
+        <tr>
+            <td>白马君红</td>
+            <td>8.1</td>
+            <td>逸品霖</td>
+            <td>海南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2643</td>
+            <td>3</td>
+            <td>一款品质一般的红茶。<br>香气略带火香，酸味略重，轻微甜香，汤感较厚，顺滑度好，略涩，能化开，生津短，爽口性较好。<br>总体协调性正常，耐冲泡度较好。<br></td>
+            <td>2971</td>
+            <td>512</td>
+            <td>3174</td>
+            <td>1488</td>
+        </tr>
+        <tr>
+            <td>金鼎红</td>
+            <td>8.0</td>
+            <td>金鼎</td>
+            <td>海南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/1559</td>
+            <td>3</td>
+            <td>一款叶质较粗老，香气滋味都较为平淡的红茶，从第三泡整体口感开始下降，耐泡度较差，是一款偏中低档的红茶。</td>
+            <td>3214</td>
+            <td>574</td>
+            <td>2937</td>
+            <td>1150</td>
+        </tr>
+        <tr>
+            <td>白马君红</td>
+            <td>7.9</td>
+            <td>白马岭</td>
+            <td>海南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2594</td>
+            <td>2</td>
+            <td>一款发酵偏轻，烘干温度过高，性价比一般的红茶。<br>香气略火香，有烟味，令人不爽，略带甜香，汤感较厚，略有涩味，爽口性好，但喉底略干。<br>总体协调性一般，耐冲泡度普通。</td>
+            <td>3463</td>
+            <td>624</td>
+            <td>3372</td>
+            <td>1018</td>
+        </tr>
+        <tr>
+            <td>白沙红</td>
+            <td>7.8</td>
+            <td>村人易物</td>
+            <td>海南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/1434</td>
+            <td>2</td>
+            <td>一款鲜叶选料较普通的，加工工艺尚好。<br>淡淡的甜香，但不持久，头两泡稍有味。汤内有香，但茶汤滋味比较薄，苦味重，略微有。五泡出水味。</td>
+            <td>3624</td>
+            <td>653</td>
+            <td>3372</td>
+            <td>3390</td>
+        </tr>
+        <tr>
+            <td>海南CTC磅装红茶</td>
+            <td>7.5</td>
+            <td>远洋牌</td>
+            <td>海南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/329</td>
+            <td>2</td>
+            <td>干茶：末茶，是CTC 典型的外形。汤色：橙黄艳丽，但第三泡略微浑浊。气味：香气低沉仅第一泡可见低沉香气，且香气带</td>
+            <td>3911</td>
+            <td>704</td>
+            <td>3649</td>
+            <td>1284</td>
+        </tr>
+        <tr>
+            <td>浓香水满大叶黎红</td>
+            <td>7.5</td>
+            <td>印象水满</td>
+            <td>海南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/1457</td>
+            <td>2</td>
+            <td>一款原料较粗，工艺一般的红茶。干茶乌欠，条索粗大，欠匀。<br>汤色红亮，烟重，贯穿于茶汤乃至。梗大叶粗老，枯暗，花杂不展<br></td>
+            <td>3911</td>
+            <td>704</td>
+            <td>3746</td>
+            <td>875</td>
+        </tr>
+        <tr>
+            <td>五指山红茶</td>
+            <td>7.4</td>
+            <td>椰仙</td>
+            <td>海南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2453</td>
+            <td>2</td>
+            <td>这是一款选料偏老，工艺上存在一定缺陷的红茶。<br>香气带焦火味，略有辛辣味，滋味整体偏淡，汤感顺滑度和爽口度较好，涩味较弱，缺少韵味的茶。<br>总体协调性一般，耐冲泡度差。</td>
+            <td>3983</td>
+            <td>711</td>
+            <td>3524</td>
+            <td>3987</td>
+        </tr>
+        <tr>
+            <td>白沙红茶</td>
+            <td>7.3</td>
+            <td>白沙牌</td>
+            <td>海南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2452</td>
+            <td>2</td>
+            <td>一款外形和滋味都欠佳的红茶，不推荐购买。<br>香气略带焦糖香，整体低闷，滋味平淡，略有甜味，汤感薄，毫无亮点可言。<br>总体协调性一般，耐冲泡度差。</td>
+            <td>4029</td>
+            <td>721</td>
+            <td>3372</td>
+            <td>3602</td>
+        </tr>
+        <tr>
+            <td>海南白沙红茶</td>
+            <td>7.1</td>
+            <td>海南农垦</td>
+            <td>海南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/1433</td>
+            <td>2</td>
+            <td>一款原料较粗老，工艺存在明显缺点的红茶。<br>该茶烟焦味明显，带靑气，而且汤内也清晰感受到，头泡略有爽滑感，但整体滋味淡薄，四泡出水味</td>
+            <td>4134</td>
+            <td>738</td>
+            <td>3746</td>
+            <td>3353</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+
+</body>
+</html>

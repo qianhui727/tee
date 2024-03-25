@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+</head>
+<body>
+
+        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="291fce3e76b7475a98312bfbebdc50f4" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > 江西</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>标题</th>
+            <th>评分</th>
+            <th>品牌</th>
+            <th>产地</th>
+            <th>茶类</th>
+            <th>详情链接</th>
+            <th>荐指数</th>
+            <th>总评</th>
+            <th>茶语排行</th>
+            <th>茶语分类排行</th>
+            <th>综合评分排行</th>
+            <th>热搜排行</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>狗牯脑</td>
+            <td>9.2</td>
+            <td>老仙</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2266</td>
+            <td>4</td>
+            <td>这是一款选料细嫩，外形漂亮，品质俱佳的绿茶。<br>整体香气嫩香带花香，持久性尚可，滋味鲜爽，汤感顺滑，十分爽口，略有涩味，回甘。<br>总体协调性好，耐冲泡度不错。<br></td>
+            <td>29</td>
+            <td>3</td>
+            <td>119</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>明前婺源绿茶</td>
+            <td>9.0</td>
+            <td>林生茶</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1113</td>
+            <td>4</td>
+            <td>一款品质不错的绿茶，汤浅黄亮，香气不高，带清香和嫩豆香，茶汤有很好表现，较稠厚，有油感，饮后回甘明显，整体协调度好。</td>
+            <td>131</td>
+            <td>34</td>
+            <td>231</td>
+            <td>843</td>
+        </tr>
+        <tr>
+            <td>明前庐山云雾</td>
+            <td>8.9</td>
+            <td>捉马岭</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/4382</td>
+            <td>3</td>
+            <td>这款茶外形条索紧实有毫，色泽深绿色，匀整，干茶显清香。汤色浅黄绿色。尚清香。滋味尚醇，汤香不足，后期汤饮后口腔有附着感。叶底尚嫩，含一芽二叶、对夹叶，匀整。</td>
+            <td>255</td>
+            <td>62</td>
+            <td>764</td>
+            <td>367</td>
+        </tr>
+        <tr>
+            <td>明前庐山云雾</td>
+            <td>8.9</td>
+            <td>朱顺友63牌</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/4383</td>
+            <td>3</td>
+            <td>这款茶滋味醇厚回甘、香气持久。外形条索紧细隐显白毫，有锋苗，色泽尚绿润，有极少部分碎茶，干茶显清香。汤色浅黄绿色。清香尚持久。滋味甜醇回甘，汤香持久。叶底嫩黄绿，尚匀整，采摘标准不一致，有芽头、一芽一叶、一芽二叶，略碎，柔软，叶底仍有香气。</td>
+            <td>255</td>
+            <td>62</td>
+            <td>764</td>
+            <td>219</td>
+        </tr>
+        <tr>
+            <td>红御品庐山云雾</td>
+            <td>8.9</td>
+            <td>露语</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1894</td>
+            <td>3</td>
+            <td>一款整体表现较好的绿茶。外形因为采摘不整齐，给加工造成难度，导致茶叶整齐度较差。茶叶滋味优质，较清高的花香，甘醇、鲜醇的口感，而且水中也带花香，韵味悠长，但香气略有火气。</td>
+            <td>255</td>
+            <td>62</td>
+            <td>231</td>
+            <td>1630</td>
+        </tr>
+        <tr>
+            <td>庐山云雾</td>
+            <td>8.8</td>
+            <td>朱顺友63牌</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2335</td>
+            <td>3</td>
+            <td>这是非常有特点，风格清新的优质绿茶。<br>茶香汤水一体，清雅花香和清爽瓜果的香气混合，留于口中。<br>茶汤甘润清甜，后期有微涩略影响协调，耐泡度颇佳。<br></td>
+            <td>409</td>
+            <td>101</td>
+            <td>432</td>
+            <td>91</td>
+        </tr>
+        <tr>
+            <td>狗牯脑</td>
+            <td>8.8</td>
+            <td>吉贡</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2277</td>
+            <td>3</td>
+            <td>这款狗牯脑外形很好看，条索弯曲，细紧，有毫，香气中有甜香、嫩香，毫香，滋味甘甜，浓而爽口，欠缺的是香气持久性较差。</td>
+            <td>409</td>
+            <td>101</td>
+            <td>119</td>
+            <td>498</td>
+        </tr>
+        <tr>
+            <td>特级庐山云雾</td>
+            <td>8.7</td>
+            <td>公和厚</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/4381</td>
+            <td>3</td>
+            <td>一款回甘好，有一定生津度的绿茶。外形条索紧细显锋苗；色泽翠绿，白毫显露；尚匀整，略有茶梗；干茶显清香。汤色浅黄绿明亮。香气清香持久，但不够高爽。滋味鲜醇回甘、生津尚可，有一定耐泡度，冲泡过程中汤厚度下降缓。叶底细嫩，尚匀整，柔软，有清香。</td>
+            <td>635</td>
+            <td>150</td>
+            <td>432</td>
+            <td>1593</td>
+        </tr>
+        <tr>
+            <td>洞庭山碧螺春</td>
+            <td>8.7</td>
+            <td>三万昌</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2364</td>
+            <td>3</td>
+            <td>这是一款可以靠娇美容颜混江湖的绿茶。<br>干茶满身披毫，银白隐翠，干茶身姿十分吸引眼球。内质也较不错，豆香、清香明显，滋味鲜浓，涩感略有停留。整体的回甘生津明显持续。</td>
+            <td>635</td>
+            <td>150</td>
+            <td>3174</td>
+            <td>753</td>
+        </tr>
+        <tr>
+            <td>庐山云雾</td>
+            <td>8.7</td>
+            <td>爱此山</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2370</td>
+            <td>3</td>
+            <td>这是一款原料很好，工艺还算不错的绿茶。<br>茶叶干茶有玫瑰花香，开汤后香气偏向豆香，外形不错，但是茶叶略显高火，略微影响口感。<br>茶水协调性好，耐泡度中等。</td>
+            <td>635</td>
+            <td>150</td>
+            <td>764</td>
+            <td>922</td>
+        </tr>
+        <tr>
+            <td>庐山云雾</td>
+            <td>8.7</td>
+            <td>公和厚</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2127</td>
+            <td>3</td>
+            <td>一款爽滑甜柔的庐山云雾茶。<br>香气总体以栗香为主，稍带有鲜嫩香，滋味比较浓厚，微涩，回甘好。但是韵味一般。</td>
+            <td>635</td>
+            <td>150</td>
+            <td>764</td>
+            <td>2791</td>
+        </tr>
+        <tr>
+            <td> 宁红金毫</td>
+            <td>8.7</td>
+            <td>公和厚</td>
+            <td>江西</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/1528</td>
+            <td>3</td>
+            <td>一款用料较优，品质不错的红茶。<br>此款茶冲泡前期香气复合，蜜香、花香、果香、薯香交融，后期以甜香为主，整体香气柔和较持久。茶汤浓稠、顺滑，有一定甜度和鲜爽度，汤内有蜜香。后期稍有</td>
+            <td>635</td>
+            <td>83</td>
+            <td>764</td>
+            <td>1836</td>
+        </tr>
+        <tr>
+            <td>庐山云雾</td>
+            <td>8.6</td>
+            <td>庐山魏罗杰</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2327</td>
+            <td>3</td>
+            <td>这是一款优点明显，有不足之处的绿茶。<br>选料细嫩优质，也很好表现出了庐山云雾的饱满花香，但美中不足的是工艺上略微过火的问题。<br>香气前期稍稍带有火气，之后花香饱满，饮后满口留香，且留香时间长；<br>茶汤滋味鲜甜带稠，滋味饱满甘甜，有喉韵；<br></td>
+            <td>953</td>
+            <td>221</td>
+            <td>1681</td>
+            <td>622</td>
+        </tr>
+        <tr>
+            <td>一级庐山云雾</td>
+            <td>8.6</td>
+            <td>公和厚</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/4147</td>
+            <td>3</td>
+            <td>这是一款滋味鲜爽，香气融合度比较好的绿茶。<br>茶叶香气以清香为主，带豆香，汤与香气融合度较好，茶汤浓淡适宜，入口鲜爽，有弱涩，较不耐泡。<br></td>
+            <td>953</td>
+            <td>221</td>
+            <td>764</td>
+            <td>1590</td>
+        </tr>
+        <tr>
+            <td>庐山云雾</td>
+            <td>8.6</td>
+            <td>大帝</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1614</td>
+            <td>3</td>
+            <td>这是一款原料选用春茶嫩叶，内质丰富，工艺得体，品质表现不错的产品。<br>该款产品干茶色泽墨绿，条索紧细卷曲。汤色黄绿明亮，持久度较好。香气有近似于竹叶的清香，栗香显，香气。茶汤入口甜柔鲜爽，尚甘醇，较饱满，内质丰富，耐泡度较好。<br></td>
+            <td>953</td>
+            <td>221</td>
+            <td>764</td>
+            <td>3339</td>
+        </tr>
+        <tr>
+            <td>狗牯脑红茶</td>
+            <td>8.6</td>
+            <td>井岗思源</td>
+            <td>江西</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2745</td>
+            <td>3</td>
+            <td>一款表现中规中矩，滋味鲜甜平和的红茶。<br>其口感表现不错，甜香明显，较持久。滋味鲜爽，带甜味，回甘明显。总体协调性好，耐泡度比较高。<br>该茶性价比不错，可选做日常口粮茶。<br></td>
+            <td>953</td>
+            <td>136</td>
+            <td>1681</td>
+            <td>639</td>
+        </tr>
+        <tr>
+            <td>野绿庐山云雾</td>
+            <td>8.6</td>
+            <td>宸奉贡牌</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2244</td>
+            <td>3</td>
+            <td>一款选料均匀，工艺上乘的绿茶。<br>整体香气和滋味都很喜人，香气栗香鲜浓，还带有悦人的花香，滋味也有一定的鲜爽度和回甘度，但是口感整体较淡。<br>总体协调性好，耐冲泡度一般。<br></td>
+            <td>953</td>
+            <td>221</td>
+            <td>1681</td>
+            <td>1074</td>
+        </tr>
+        <tr>
+            <td>狗牯脑</td>
+            <td>8.6</td>
+            <td>老仙</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/3780</td>
+            <td>3</td>
+            <td>这款是一款回甘好，香气略有缺陷的茶叶。<br>茶汤浓厚、较甜润、稍有鲜感，后期略有苦涩感，但口腔回甘好，一直留甜，舌面略有生津；有明显栗香，能入汤，前期入口有烟味，后期烟味消失。<br></td>
+            <td>953</td>
+            <td>221</td>
+            <td>1177</td>
+            <td>1430</td>
+        </tr>
+        <tr>
+            <td>文公野山红</td>
+            <td>8.6</td>
+            <td>婺牌</td>
+            <td>江西</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/4038</td>
+            <td>3</td>
+            <td>条形紧锁，条形紧结秀丽，色泽乌润，黑黄相间。茶汤色鲜艳，红而透明，色泽诱人。茶底色泽诱人，条条细嫩无杂质，茶汁丰富。</td>
+            <td>953</td>
+            <td>136</td>
+            <td>764</td>
+            <td>1233</td>
+        </tr>
+        <tr>
+            <td>婺源剑锋特级</td>
+            <td>8.6</td>
+            <td>婺牌</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2260</td>
+            <td>3</td>
+            <td>这是一款选料嫩度好，外形漂亮的名优绿茶。<br>整体香气似熟豆香，持久性尚好，滋味醇爽，汤感顺滑，入口带苦，能很快化开，回甘度较低。<br>总体协调性好，耐冲泡度低。<br></td>
+            <td>953</td>
+            <td>221</td>
+            <td>764</td>
+            <td>834</td>
+        </tr>
+        <tr>
+            <td>庐山云雾一级</td>
+            <td>8.6</td>
+            <td>公和厚</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2265</td>
+            <td>3</td>
+            <td>这是一款选料细嫩，外形漂亮，香气高雅的绿茶。<br>整体花香，持久性尚可，滋味醇厚，汤感顺滑，爽口，入口有涩感，回甘度较低。<br>总体协调性较好，耐冲泡度正常。<br></td>
+            <td>953</td>
+            <td>221</td>
+            <td>1681</td>
+            <td>1079</td>
+        </tr>
+        <tr>
+            <td>婺源林生茶一级</td>
+            <td>8.6</td>
+            <td>林生茶</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2287</td>
+            <td>3</td>
+            <td>一款整体表现标准的绿茶。<br>从干茶到内质，表现稳定，没有明显缺点。干茶翠绿带白毫，紧直匀整，滋味甜润，较鲜爽，带有淡淡的板栗香、清香和花香，无苦涩，有回甘生津。<br></td>
+            <td>953</td>
+            <td>221</td>
+            <td>1681</td>
+            <td>970</td>
+        </tr>
+        <tr>
+            <td>狗牯脑</td>
+            <td>8.6</td>
+            <td>老仙</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1264</td>
+            <td>3</td>
+            <td>这款狗牯脑，整体品质较好，选料也比较嫩，干茶色泽深绿色，卷曲成螺，略显白毫，汤色浅黄亮，清香高扬而鲜爽，但略带烟味，滋味较浓，爽口，回甘舒适。较为耐泡。</td>
+            <td>953</td>
+            <td>221</td>
+            <td>1177</td>
+            <td>2148</td>
+        </tr>
+        <tr>
+            <td>有机绿茶</td>
+            <td>8.6</td>
+            <td>林生茶</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1521</td>
+            <td>3</td>
+            <td>这款绿茶外形和品质较好。选用的原料较鲜嫩，制作工艺到位，茶叶针形秀丽、；香气嫩香浓郁持久，且带花香；滋味鲜爽甘醇，回甘好，回味悠长，鲜活。总体来看，这是一款品质不错的绿茶。<br></td>
+            <td>953</td>
+            <td>221</td>
+            <td>1177</td>
+            <td>3278</td>
+        </tr>
+        <tr>
+            <td>庐山云雾</td>
+            <td>8.5</td>
+            <td>庐山魏罗杰</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2577</td>
+            <td>3</td>
+            <td>这款庐山云雾茶是传统工艺加工制成，原料海拔较高，为烘青茶，色泽偏黄，弯条较多，由于是柴火灶，香气中带了烟味，高火耗鲜，因此鲜度不足，有兰香，清高，滋味清甜有回甘。</td>
+            <td>1426</td>
+            <td>330</td>
+            <td>1177</td>
+            <td>2444</td>
+        </tr>
+        <tr>
+            <td>一级婺源绿茶</td>
+            <td>8.4</td>
+            <td>婺牌</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2571</td>
+            <td>3</td>
+            <td>一款平庸的绿茶，干茶、内质变现平平，缺陷不明显，但是特点也不突出。<br>干茶等级普通，滋味清甜，浓度略强，汤水中有淡淡栗香和甜香，有回甘。头泡茶汤汤色略浑，后期转好。</td>
+            <td>1866</td>
+            <td>410</td>
+            <td>3916</td>
+            <td>968</td>
+        </tr>
+        <tr>
+            <td>宁红工夫</td>
+            <td>8.4</td>
+            <td>漫江红</td>
+            <td>江西</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2614</td>
+            <td>3</td>
+            <td>这是一款整体品质正常，没有突出特色的宁红工夫红茶。<br>其干茶条索紧细微曲，色泽乌黑较润，带少量金毫。茶汤的色泽和明亮度很好。香气高扬，果香和甜香浓郁，但是香气没有融入茶汤。滋味甜和顺滑，口感略显平淡。有涩味，不过化得较快。回甘生津缓慢。</td>
+            <td>1866</td>
+            <td>284</td>
+            <td>4295</td>
+            <td>3732</td>
+        </tr>
+        <tr>
+            <td>二级宁红茶</td>
+            <td>8.4</td>
+            <td>公和厚</td>
+            <td>江西</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/4003</td>
+            <td>3</td>
+            <td>一款香气和滋味有特点，但不耐泡的红茶。<br>此款茶的香气表现为蜜甜香和木质香气，香气持久，但不高扬，滋味协调性较好，口感甜顺，有一定浓度，但饮后有苦味，能化开，有涩感较持久，整体茶不耐泡。</td>
+            <td>1866</td>
+            <td>284</td>
+            <td>432</td>
+            <td>814</td>
+        </tr>
+        <tr>
+            <td>庐山云雾手工茶</td>
+            <td>8.4</td>
+            <td>双人茶庄</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2268</td>
+            <td>3</td>
+            <td>这是一款外形一般，滋味出众，性价比不错的绿茶。<br>整体香气清香，持久性一般，滋味稍浓，入口甘甜，涩感较重，能很快化开，生津略慢，回甘持久。<br>总体协调性较好，耐冲泡度一般。<br></td>
+            <td>1866</td>
+            <td>410</td>
+            <td>2937</td>
+            <td>807</td>
+        </tr>
+        <tr>
+            <td>宁红茶</td>
+            <td>8.4</td>
+            <td>大道堂</td>
+            <td>江西</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/1527</td>
+            <td>3</td>
+            <td>此款红茶用料较好、品质中等，各方面表现较为均衡。<br>茶叶甜香较为明显，亦较持久。汤质较稠，入口顺滑，甜而较鲜爽，内质较丰厚。整体协调度不错。</td>
+            <td>1866</td>
+            <td>284</td>
+            <td>2937</td>
+            <td>3680</td>
+        </tr>
+        <tr>
+            <td>特级头采雀舌</td>
+            <td>8.4</td>
+            <td>山香名饮</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2285</td>
+            <td>3</td>
+            <td>一款质量普通的雀舌绿茶。<br>干茶选用芽头，粒粒芽头较饱满，但冲泡后香气较淡，滋味平和，口感清甜，涩感略显，整体没大的缺陷，但也没有特点。<br></td>
+            <td>1866</td>
+            <td>410</td>
+            <td>1681</td>
+            <td>950</td>
+        </tr>
+        <tr>
+            <td>工夫红茶</td>
+            <td>8.3</td>
+            <td>宁红</td>
+            <td>江西</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2612</td>
+            <td>3</td>
+            <td>一款整体品质较良好的工夫红茶。干茶外形条索紧结，略显钝，身骨尚重实，金毫较多，色泽黑褐尚润，匀整，稍有片茶存在，较匀净。茶汤金黄明亮，甜果香显，尚高而持久。滋味甜醇，有回甘，尚浓。叶底较开展，叶质尚软，较薄，色泽尚红亮，有花青，色调稍花杂，尚匀整。</td>
+            <td>2302</td>
+            <td>364</td>
+            <td>4295</td>
+            <td>3753</td>
+        </tr>
+        <tr>
+            <td>经典红茶</td>
+            <td>8.2</td>
+            <td>林恩</td>
+            <td>江西</td>
+            <td>袋泡</td>
+            <td>https://chaping.chayu.com/tea/2680</td>
+            <td>3</td>
+            <td>这是一款包装简洁规范，滋味平淡的袋泡茶。<br>包装简洁，滤纸清洁；袋内茶叶细小，有少量金毫，带黄片。茶汤橙红明亮，香气较低；滋味平和，汤质较薄，回甘生津较明显，舌面有轻微涩感，化的快。</td>
+            <td>2669</td>
+            <td>92</td>
+            <td>2179</td>
+            <td>2134</td>
+        </tr>
+        <tr>
+            <td>一级林生婺红</td>
+            <td>8.2</td>
+            <td>林生茶</td>
+            <td>江西</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/4025</td>
+            <td>3</td>
+            <td>一款用料精心，做工粗糙的红茶。<br>茶叶香甜，有火气，带有高火味，整体茶汤平淡，缺乏内质，入口带有苦味，滋味略有甜，口内干涩，涩感停留时长，回甘生津弱。<br><br></td>
+            <td>2669</td>
+            <td>449</td>
+            <td>1681</td>
+            <td>1830</td>
+        </tr>
+        <tr>
+            <td>宁红工夫</td>
+            <td>8.1</td>
+            <td>公和厚</td>
+            <td>江西</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2611</td>
+            <td>3</td>
+            <td>一款整体表现平淡的红茶。<br>香气是平和而较为持久的甜香，头泡略带薯香。汤质整体偏薄，滋味温和而甜。整体品饮下来很平，没有特点。</td>
+            <td>2971</td>
+            <td>512</td>
+            <td>4323</td>
+            <td>3425</td>
+        </tr>
+        <tr>
+            <td>狗牯脑</td>
+            <td>8.1</td>
+            <td>御华轩</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1621</td>
+            <td>3</td>
+            <td>这是一款原料中壮尚嫩，无明显工艺缺陷，品质平实的大宗</td>
+            <td>2971</td>
+            <td>594</td>
+            <td>2179</td>
+            <td>3850</td>
+        </tr>
+        <tr>
+            <td>一级宁红工夫</td>
+            <td>8.1</td>
+            <td>宁红</td>
+            <td>江西</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/907</td>
+            <td>3</td>
+            <td>条索紧细，色泽乌</td>
+            <td>2971</td>
+            <td>512</td>
+            <td>2179</td>
+            <td>2112</td>
+        </tr>
+        <tr>
+            <td>山谷云雾宁红茶</td>
+            <td>8.0</td>
+            <td>维士茶业</td>
+            <td>江西</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/313</td>
+            <td>3</td>
+            <td>干茶：条索紧细</td>
+            <td>3214</td>
+            <td>574</td>
+            <td>4104</td>
+            <td>3909</td>
+        </tr>
+        <tr>
+            <td>宁红政商简易金盒</td>
+            <td>8.0</td>
+            <td>宁红</td>
+            <td>江西</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/903</td>
+            <td>3</td>
+            <td>条索紧结，色泽乌</td>
+            <td>3214</td>
+            <td>574</td>
+            <td>2937</td>
+            <td>3787</td>
+        </tr>
+        <tr>
+            <td>宁红红茶</td>
+            <td>8.0</td>
+            <td>梅府茗家</td>
+            <td>江西</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/1529</td>
+            <td>3</td>
+            <td>一款工艺有瑕疵的红茶。<br>香气平和，持久度一般，以甜香为主，带蜜香。汤质淡薄，滋味温和，有一定甜度和鲜爽度，滋味偏淡薄，但喝后口腔内有明显的感，且化得慢。<br></td>
+            <td>3214</td>
+            <td>574</td>
+            <td>3649</td>
+            <td>3612</td>
+        </tr>
+        <tr>
+            <td>高山绿茶</td>
+            <td>8.0</td>
+            <td>山乡茗饮</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/250</td>
+            <td>3</td>
+            <td>干茶：外形紧细卷曲，呈墨绿色，尚</td>
+            <td>3214</td>
+            <td>633</td>
+            <td>1681</td>
+            <td>3740</td>
+        </tr>
+        <tr>
+            <td>一级宁红工夫</td>
+            <td>7.9</td>
+            <td>怡和福</td>
+            <td>江西</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2613</td>
+            <td>2</td>
+            <td>一款原料较粗老，内质表现略显单薄的工夫红茶，不耐泡。<br>香气是平和的甜香。滋味鲜甜，但滋味偏薄。叶底较多卷缩不开展，叶质较硬，芽叶单薄，茶梗稍长，色泽呈古铜色，尚亮，色调略花杂，尚匀整。</td>
+            <td>3463</td>
+            <td>624</td>
+            <td>4341</td>
+            <td>4288</td>
+        </tr>
+        <tr>
+            <td>婺源高山野生茶</td>
+            <td>7.8</td>
+            <td>婺源良飞</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2573</td>
+            <td>2</td>
+            <td>有着非常差体验的绿茶，选料粗老，工艺有明显问题。<br>香气中有明显异味，有明显的发酵和闷气。<br>茶汤滋味薄，滋味初尝试时有异常甜味，之后再冲泡苦涩难以入口。平衡感欠缺，耐泡度差。</td>
+            <td>3624</td>
+            <td>716</td>
+            <td>3969</td>
+            <td>2849</td>
+        </tr>
+        <tr>
+            <td>文公老枞红茶</td>
+            <td>7.8</td>
+            <td>婺牌</td>
+            <td>江西</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2579</td>
+            <td>2</td>
+            <td>这是一款性原料较粗老，做工一般，价比不高的红茶。<br>香气甜香明显，较持久，滋味较浓厚，有回甘。不足之处在于香气略带酸味。总体协调性一般，耐泡度一般。</td>
+            <td>3624</td>
+            <td>653</td>
+            <td>3174</td>
+            <td>3466</td>
+        </tr>
+        <tr>
+            <td>婺源绿茶一叶香</td>
+            <td>7.8</td>
+            <td>林生茶</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2193</td>
+            <td>2</td>
+            <td>一款内质优于外形的绿茶。<br>总体看是一款品质不错的绿茶。该茶香气豆香显，带有嫩香，但是带有烟味，且香入茶汤。茶汤表现较好，滋味鲜甜，较稠厚，爽口度一般，饮后回甘明显，但是生津稍缓慢。<br>整体协调度好，耐冲泡度一般。<br></td>
+            <td>3624</td>
+            <td>716</td>
+            <td>4173</td>
+            <td>909</td>
+        </tr>
+        <tr>
+            <td>陈年宁红茶</td>
+            <td>7.7</td>
+            <td>宁红</td>
+            <td>江西</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2088</td>
+            <td>2</td>
+            <td>这款茶外形是正常的大宗红茶，略陈。内质较差，存放过程中问题较多，茶叶香气近无，陈味和霉味较明显，滋味淡薄平和，无特点。</td>
+            <td>3753</td>
+            <td>671</td>
+            <td>2937</td>
+            <td>4104</td>
+        </tr>
+        <tr>
+            <td>得雨活茶国宴茶</td>
+            <td>7.0</td>
+            <td>得雨</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/516</td>
+            <td>2</td>
+            <td>干茶：条索尚紧直，有峰苗，乌色发绿，尚光</td>
+            <td>4176</td>
+            <td>824</td>
+            <td>4229</td>
+            <td>1771</td>
+        </tr>
+        <tr>
+            <td>浮瑶仙芝</td>
+            <td>7.0</td>
+            <td>浮瑶仙芝</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/517</td>
+            <td>2</td>
+            <td>干茶：条索细，有峰苗，深绿色发乌，欠光</td>
+            <td>4176</td>
+            <td>824</td>
+            <td>3372</td>
+            <td>2108</td>
+        </tr>
+        <tr>
+            <td>江西修水宁红茶</td>
+            <td>6.9</td>
+            <td>维士茶业</td>
+            <td>江西</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/314</td>
+            <td>0</td>
+            <td>干茶：条索紧实，微断碎，微显金毫，峰苗可见，色泽黒褐微红欠</td>
+            <td>4216</td>
+            <td>750</td>
+            <td>3916</td>
+            <td>3341</td>
+        </tr>
+        <tr>
+            <td>庐山云雾</td>
+            <td>6.7</td>
+            <td>特尊牌</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/51</td>
+            <td>0</td>
+            <td>干茶：干茶色泽墨绿，</td>
+            <td>4272</td>
+            <td>837</td>
+            <td>4062</td>
+            <td>3409</td>
+        </tr>
+        <tr>
+            <td>山谷云雾宁红工夫红茶</td>
+            <td>6.5</td>
+            <td>维士茶业</td>
+            <td>江西</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/315</td>
+            <td>0</td>
+            <td>干茶：粗松的条索显示出其的外形。汤色：红黄明亮微淡。气味：香气不够</td>
+            <td>4311</td>
+            <td>772</td>
+            <td>4247</td>
+            <td>3067</td>
+        </tr>
+        <tr>
+            <td>商务茶</td>
+            <td>5.9</td>
+            <td>武夷源</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/443</td>
+            <td>0</td>
+            <td>干茶：干茶外形呈卷曲形，较为松散。色泽呈灰绿色，较花杂，尚算油</td>
+            <td>4368</td>
+            <td>850</td>
+            <td>4173</td>
+            <td>3213</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+
+</body>
+</html>

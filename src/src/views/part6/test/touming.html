@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        #header {
+            background-color: rgba(0, 0, 0, 0);
+            height: 100px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+    </style>
+    <script type="text/javascript">
+        var header = document.getElementById("header");
+        window.addEventListener('scroll', function() {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+          var scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+          var opacity = (scrollHeight - scrollTop) / scrollHeight;
+          header.style.backgroundColor = 'rgba(255, 255, 255, ' + opacity + ')';
+});
+
+    </script>
+</head>
+<body>
+    <div id="header">我是头部</div>
+
+<!-- 其他内容区域 -->
+
+</body>
+</html>

@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+</head>
+<body>
+
+        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="bf01da60969347938fb06f6ab0ea9ade" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > 河南</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>标题</th>
+            <th>评分</th>
+            <th>品牌</th>
+            <th>产地</th>
+            <th>茶类</th>
+            <th>详情链接</th>
+            <th>荐指数</th>
+            <th>总评</th>
+            <th>茶语排行</th>
+            <th>茶语分类排行</th>
+            <th>综合评分排行</th>
+            <th>热搜排行</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>信阳毛尖</td>
+            <td>8.8</td>
+            <td>世明</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2184</td>
+            <td>3</td>
+            <td>这是一款工艺标准、品质优秀的绿茶。<br>这款茶很好展现了信阳毛尖的“圆、滚、细、直”的外形特征，香气具有毫香、甜香、清香，滋味鲜浓，回甘明显。虽然仍有小缺陷，如香气的持久性稍差，叶底有少许红变，但整体仍然是款好茶。<br></td>
+            <td>409</td>
+            <td>101</td>
+            <td>231</td>
+            <td>703</td>
+        </tr>
+        <tr>
+            <td>信阳功夫红</td>
+            <td>8.8</td>
+            <td>世明</td>
+            <td>河南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2455</td>
+            <td>3</td>
+            <td>这是一款选料优异，品质上乘的红茶。<br>茶叶甜香浓郁、持久。口感也很好，滋味甜润，具备一定的鲜爽度，口感回味绵长。<br>总体协调性好，但是不够耐泡。</td>
+            <td>409</td>
+            <td>56</td>
+            <td>432</td>
+            <td>2609</td>
+        </tr>
+        <tr>
+            <td>信阳毛尖</td>
+            <td>8.7</td>
+            <td>艺福堂</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1544</td>
+            <td>3</td>
+            <td>这是一款性价比较高的</td>
+            <td>635</td>
+            <td>150</td>
+            <td>432</td>
+            <td>3034</td>
+        </tr>
+        <tr>
+            <td>信阳毛尖</td>
+            <td>8.7</td>
+            <td>世明</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2907</td>
+            <td>3</td>
+            <td>这是一款选料细嫩，滋味鲜爽的绿茶。<br>该茶外形呈针形，紧细，色泽墨绿、白毫显露；汤色黄绿明亮，茶汤中有较多茶毫；香气以熟板栗香为主，带有花香；茶汤滋味鲜爽顺滑，回甘生津；叶底嫩绿柔软，匀整度好；整体滋味协调，表现良好。<br></td>
+            <td>635</td>
+            <td>150</td>
+            <td>231</td>
+            <td>415</td>
+        </tr>
+        <tr>
+            <td>信阳红</td>
+            <td>8.7</td>
+            <td>世明</td>
+            <td>河南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/3943</td>
+            <td>3</td>
+            <td>一款外形细嫩，香气怡人的信阳红茶。<br>香气甜香浓郁，持久性较好，茶汤细腻，顺滑，滋味甜润，鲜爽度较好。<br>总体协调性较好，耐冲泡度较好。</td>
+            <td>635</td>
+            <td>83</td>
+            <td>764</td>
+            <td>710</td>
+        </tr>
+        <tr>
+            <td>信阳毛尖</td>
+            <td>8.6</td>
+            <td>恩茗茶叶</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/258</td>
+            <td>3</td>
+            <td>干茶：这款茶的条形紧细、</td>
+            <td>953</td>
+            <td>221</td>
+            <td>1177</td>
+            <td>742</td>
+        </tr>
+        <tr>
+            <td>信阳毛尖</td>
+            <td>8.6</td>
+            <td>伯韵</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2237</td>
+            <td>3</td>
+            <td>一款外形普通，但滋味惊艳的毛尖。<br>整体炒豆香鲜浓，隐隐有嫩香，香溶于茶汤，留于口腔，汤感柔和，滋味有鲜爽感，回甘清甜，满口生津。不足在于叶底较碎，完整性较差。<br></td>
+            <td>953</td>
+            <td>221</td>
+            <td>432</td>
+            <td>785</td>
+        </tr>
+        <tr>
+            <td>君子信阳红</td>
+            <td>8.6</td>
+            <td>华祥苑</td>
+            <td>河南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2548</td>
+            <td>3</td>
+            <td>品质较正常的一款红茶，汤色特别出众。<br>香气有火香和生青味，令人不爽，茶汤入口甜，带有生涩味，化开慢，酸味重，汤感较厚，顺滑度较好。<br>总体协调性一般，耐冲泡度正常。</td>
+            <td>953</td>
+            <td>136</td>
+            <td>2179</td>
+            <td>2737</td>
+        </tr>
+        <tr>
+            <td>悟道信阳毛尖</td>
+            <td>8.5</td>
+            <td>文新茶业</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/4396</td>
+            <td>3</td>
+            <td>选料精细，工艺正常的信阳毛尖。<br>茶汤整体香气内敛，清香为主，有轻微的炒豆香，茶香融于茶汤。炒制过程的火工带来口感有轻微的燥感，并无伤大雅，整体的口感依然很清爽，滋味有鲜活度，饮后舌底有生津，回甘较好，口内有余味。<br></td>
+            <td>1426</td>
+            <td>330</td>
+            <td>4323</td>
+            <td>4276</td>
+        </tr>
+        <tr>
+            <td>黑龙潭纯手工纯芽毛尖</td>
+            <td>8.5</td>
+            <td>恩茗茶叶</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/654</td>
+            <td>3</td>
+            <td>干茶：</td>
+            <td>1426</td>
+            <td>330</td>
+            <td>764</td>
+            <td>1416</td>
+        </tr>
+        <tr>
+            <td>毛尖茶</td>
+            <td>8.5</td>
+            <td>乐品乐茶</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/4277</td>
+            <td>3</td>
+            <td>一款香气清新舒服、外形娟秀的绿茶。<br>香气较丰富，干茶有着绿茶应有的舒服香气，但是汤中以炒豆香和甜花香为主但有异气。茶汤滋味清甜，鲜爽也很顺口，苦涩感弱，回甘生津较快。芽叶细嫩，耐泡度很好。<br><br></td>
+            <td>1426</td>
+            <td>330</td>
+            <td>231</td>
+            <td>1004</td>
+        </tr>
+        <tr>
+            <td>雅和 信阳毛尖</td>
+            <td>8.5</td>
+            <td>龙潭</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1222</td>
+            <td>3</td>
+            <td>这款茶选料细嫩，工艺较佳。整体香气以熟板栗香为主，带有嫩香。茶汤较厚，味鲜，虽有轻微苦，但也有回甘。整体协调性不错。外形条索细紧带毫,外形美观度也不错。四泡出水味。</td>
+            <td>1426</td>
+            <td>330</td>
+            <td>3174</td>
+            <td>2600</td>
+        </tr>
+        <tr>
+            <td>一级信阳红</td>
+            <td>8.4</td>
+            <td>龙潭</td>
+            <td>河南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2651</td>
+            <td>3</td>
+            <td>这款红茶原料虽然有部分碎末和黄片，但是内质表现还可以。<br>香气纯净，甜香浓郁，持久度一般；茶汤顺滑，略有涩味，化开快，但生津略短。汤感总体较薄，爽口性较好。<br>总体协调性正常，耐冲泡度正常。<br></td>
+            <td>1866</td>
+            <td>284</td>
+            <td>2590</td>
+            <td>4147</td>
+        </tr>
+        <tr>
+            <td>信阳毛尖</td>
+            <td>8.3</td>
+            <td>伯韵</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/3569</td>
+            <td>3</td>
+            <td>一款香气低长，涩感持久的绿茶<br>这款茶的香气持久但不高，以炒豆香为主、带有栗香，略含果香，茶汤香气不显，入口栗香，杯底略有豆香；滋味鲜爽，口感细腻、活性较差，舌面有涩感、持久性高，回甘生津弱。<br></td>
+            <td>2302</td>
+            <td>464</td>
+            <td>3372</td>
+            <td>4023</td>
+        </tr>
+        <tr>
+            <td>信阳红</td>
+            <td>8.2</td>
+            <td>三恩茶业</td>
+            <td>河南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/3917</td>
+            <td>3</td>
+            <td>一款外形一般，香气较杂的信阳红茶。<br>香气带有酸味和高火味，让人觉得不愉悦，入口鲜爽度一般，滋味甜滑，有涩味，化开慢。<br>总体协调性普通，耐冲泡度一般。<br></td>
+            <td>2669</td>
+            <td>449</td>
+            <td>3174</td>
+            <td>1495</td>
+        </tr>
+        <tr>
+            <td>信阳毛尖320</td>
+            <td>8.2</td>
+            <td>文新茶业</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/396</td>
+            <td>3</td>
+            <td>干茶：干茶符合优质信阳毛尖的特点。汤色：总体汤色嫩绿明亮，尚明亮。气味：香气清香为主，带不明显花香。滋味：茶汤较鲜爽，稍欠浓醇，回甘较快，略有</td>
+            <td>2669</td>
+            <td>534</td>
+            <td>2179</td>
+            <td>750</td>
+        </tr>
+        <tr>
+            <td>信阳红</td>
+            <td>8.0</td>
+            <td>浉河印象</td>
+            <td>河南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/3944</td>
+            <td>3</td>
+            <td>一款外形一般，香气和滋味都不尽如人意的信阳红茶。<br>茶叶香气带有发酵味，持久度较差。口感一般，茶汤滋味较薄，鲜爽度较一般。总体协调性一般。</td>
+            <td>3214</td>
+            <td>574</td>
+            <td>3372</td>
+            <td>650</td>
+        </tr>
+        <tr>
+            <td>信阳毛尖新毫780</td>
+            <td>8.0</td>
+            <td>文新</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/143</td>
+            <td>3</td>
+            <td>干茶：干茶色泽墨绿光</td>
+            <td>3214</td>
+            <td>633</td>
+            <td>2590</td>
+            <td>3421</td>
+        </tr>
+        <tr>
+            <td>信阳红</td>
+            <td>7.9</td>
+            <td>文新</td>
+            <td>河南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/92</td>
+            <td>2</td>
+            <td>干茶：干茶条索纤细，金毫显，色泽乌黑欠</td>
+            <td>3463</td>
+            <td>624</td>
+            <td>3649</td>
+            <td>3524</td>
+        </tr>
+        <tr>
+            <td>信阳毛尖</td>
+            <td>7.9</td>
+            <td>豫信</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1714</td>
+            <td>2</td>
+            <td>这是一款外形条件上佳，但工艺有明显缺陷，茶汤表现与原料差异较大的大众绿茶产品。<br>该款产品干茶色泽墨绿砂白，条索紧细</td>
+            <td>3463</td>
+            <td>680</td>
+            <td>2937</td>
+            <td>3342</td>
+        </tr>
+        <tr>
+            <td>信阳毛尖</td>
+            <td>7.9</td>
+            <td>何景明</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1970</td>
+            <td>2</td>
+            <td>这款茶叶外形较好，色泽墨绿尚，略带，汤色黄绿，尚油，香气是豆香，但带有很重的，滋味清鲜，同时苦重，回甘慢。整体是一款中低档绿茶。<br></td>
+            <td>3463</td>
+            <td>680</td>
+            <td>3372</td>
+            <td>3405</td>
+        </tr>
+        <tr>
+            <td>信阳毛尖</td>
+            <td>7.8</td>
+            <td>八马</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/58</td>
+            <td>2</td>
+            <td>干茶：条索紧细，较</td>
+            <td>3624</td>
+            <td>716</td>
+            <td>4229</td>
+            <td>2883</td>
+        </tr>
+        <tr>
+            <td>一级信阳红</td>
+            <td>7.8</td>
+            <td>家乡妹</td>
+            <td>河南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/3918</td>
+            <td>2</td>
+            <td>一款外形喜人，香气和滋味让人感到绝望的信阳红茶。<br>香气带酸味、甜香味以及糊味，“极为丰富”，工艺掌握不佳。入口鲜爽度差，滋味较为平淡，涩味明显，难化开，嗓子发干。<br>总体协调性较差，耐冲泡度较好。<br></td>
+            <td>3624</td>
+            <td>653</td>
+            <td>3174</td>
+            <td>1553</td>
+        </tr>
+        <tr>
+            <td>新林玉露蒸青绿茶</td>
+            <td>7.7</td>
+            <td>新林玉露</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/448</td>
+            <td>2</td>
+            <td>干茶：干茶条索紧细，较直，形似松针。色泽深绿稍翠，富有光泽，较为</td>
+            <td>3753</td>
+            <td>744</td>
+            <td>3174</td>
+            <td>2623</td>
+        </tr>
+        <tr>
+            <td>一级信阳红</td>
+            <td>7.7</td>
+            <td>世明</td>
+            <td>河南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2456</td>
+            <td>2</td>
+            <td>这是一款性价比还可以的大宗红茶，适合做日常口粮茶饮用。<br>茶叶香气为甜香，口感一般，有较重糊味。茶汤入口滋味平和，带甜，较涩。<br>总体品质一般。没有突出的特点，也不耐泡。</td>
+            <td>3753</td>
+            <td>671</td>
+            <td>3372</td>
+            <td>3916</td>
+        </tr>
+        <tr>
+            <td>信阳毛尖</td>
+            <td>7.5</td>
+            <td>九华山</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/409</td>
+            <td>2</td>
+            <td>干茶：卷条形，尚紧结</td>
+            <td>3911</td>
+            <td>775</td>
+            <td>3524</td>
+            <td>2461</td>
+        </tr>
+        <tr>
+            <td>信阳毛尖</td>
+            <td>7.4</td>
+            <td>中闽飘香</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/163</td>
+            <td>2</td>
+            <td>干茶：外形较</td>
+            <td>3983</td>
+            <td>787</td>
+            <td>3524</td>
+            <td>1794</td>
+        </tr>
+        <tr>
+            <td>新林玉露信阳毛尖</td>
+            <td>7.4</td>
+            <td>新林玉露</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/447</td>
+            <td>2</td>
+            <td>干茶：干茶细针形，茶条比较紧而且细，</td>
+            <td>3983</td>
+            <td>787</td>
+            <td>3969</td>
+            <td>1278</td>
+        </tr>
+        <tr>
+            <td>六级信阳红</td>
+            <td>7.3</td>
+            <td>豫信</td>
+            <td>河南</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2549</td>
+            <td>2</td>
+            <td>这是一款工艺和仓储均存在缺陷的红茶。<br>虽然外形还算正常，但香气带有持久的酸馊味，影响了茶叶整体的香气；茶汤顺滑，汤感总体较厚，带有涩味，化开慢。<br>总体协调感欠佳，耐冲泡度正常。</td>
+            <td>4029</td>
+            <td>721</td>
+            <td>4062</td>
+            <td>3743</td>
+        </tr>
+        <tr>
+            <td>悟道信阳毛尖</td>
+            <td>7.1</td>
+            <td>文新</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/94</td>
+            <td>2</td>
+            <td>干茶：条索紧细，浑圆，挺秀，有峰苗，有毫，嫩绿，较</td>
+            <td>4134</td>
+            <td>818</td>
+            <td>3843</td>
+            <td>3393</td>
+        </tr>
+        <tr>
+            <td>新安银针紫高尖茶</td>
+            <td>7.1</td>
+            <td>天羽茶业</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/403</td>
+            <td>2</td>
+            <td>干茶：外形呈针形，略有</td>
+            <td>4134</td>
+            <td>818</td>
+            <td>4173</td>
+            <td>3048</td>
+        </tr>
+        <tr>
+            <td>信阳毛尖 淳 二级绿茶</td>
+            <td>7.1</td>
+            <td>五云山</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/418</td>
+            <td>2</td>
+            <td>干茶：条索紧细，色泽墨绿隐翠较</td>
+            <td>4134</td>
+            <td>818</td>
+            <td>3649</td>
+            <td>1337</td>
+        </tr>
+        <tr>
+            <td>“淳”信阳毛尖</td>
+            <td>7.1</td>
+            <td>五云山</td>
+            <td>河南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/441</td>
+            <td>2</td>
+            <td>干茶：条索紧细，色泽墨绿隐翠较</td>
+            <td>4134</td>
+            <td>818</td>
+            <td>4247</td>
+            <td>1959</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+
+</body>
+</html>

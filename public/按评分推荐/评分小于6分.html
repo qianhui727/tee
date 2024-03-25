@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+</head>
+<body>
+
+        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="3bc75ae18e4348319b078aeb73fb1e43" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > 评分<6分</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>标题</th>
+            <th>评分</th>
+            <th>品牌</th>
+            <th>产地</th>
+            <th>茶类</th>
+            <th>详情链接</th>
+            <th>推荐指数</th>
+            <th>总评</th>
+            <th>茶语排行</th>
+            <th>茶语分类排行</th>
+            <th>综合评分排行</th>
+            <th>热搜排行</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>太平猴魁</td>
+            <td>5.9</td>
+            <td>青枫茶苑</td>
+            <td>安徽</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/259</td>
+            <td>0</td>
+            <td>干茶：符合</td>
+            <td>4368</td>
+            <td>850</td>
+            <td>4138</td>
+            <td>2390</td>
+        </tr>
+        <tr>
+            <td>秋韵白牡丹</td>
+            <td>5.9</td>
+            <td>白韵</td>
+            <td>福建</td>
+            <td>白茶</td>
+            <td>https://chaping.chayu.com/tea/273</td>
+            <td>0</td>
+            <td>干茶：条索具白牡丹特色造型较明显，条索疏松，有少量</td>
+            <td>4368</td>
+            <td>292</td>
+            <td>4062</td>
+            <td>3067</td>
+        </tr>
+        <tr>
+            <td>古羌散装黑茶</td>
+            <td>5.9</td>
+            <td>卷舒堂</td>
+            <td>四川</td>
+            <td>黑茶</td>
+            <td>https://chaping.chayu.com/tea/3886</td>
+            <td>0</td>
+            <td>这款黑茶为散茶，条索比较紧，但是碎，匀整度不好，色泽灰褐。汤色橙红较为明亮，香气有异味，沤了的朽木味道，还有陈味，属于劣变茶，滋味较为浓，带苦味。叶底棕褐，叶色较为明亮，梗多。</td>
+            <td>4368</td>
+            <td>329</td>
+            <td>4015</td>
+            <td>4067</td>
+        </tr>
+        <tr>
+            <td>福建金罐大红袍BD101</td>
+            <td>5.9</td>
+            <td>北斗</td>
+            <td>福建</td>
+            <td>乌龙</td>
+            <td>https://chaping.chayu.com/tea/816</td>
+            <td>0</td>
+            <td>干茶：干茶色泽乌褐，较油</td>
+            <td>4368</td>
+            <td>630</td>
+            <td>4138</td>
+            <td>2376</td>
+        </tr>
+        <tr>
+            <td>商务茶</td>
+            <td>5.9</td>
+            <td>武夷源</td>
+            <td>江西</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/443</td>
+            <td>0</td>
+            <td>干茶：干茶外形呈卷曲形，较为松散。色泽呈灰绿色，较花杂，尚算油</td>
+            <td>4368</td>
+            <td>850</td>
+            <td>4173</td>
+            <td>3213</td>
+        </tr>
+        <tr>
+            <td>黑茶</td>
+            <td>5.9</td>
+            <td>孙义顺六安茶</td>
+            <td>安徽</td>
+            <td>黑茶</td>
+            <td>https://chaping.chayu.com/tea/224</td>
+            <td>0</td>
+            <td>干茶：散茶有较多细梗。汤色：前两泡橙红尚明亮。气味：典型香气不明显，有刺鼻味，且带花香，稍有杂味，持久度好。滋味：尚醇厚，有回甘，有绿茶烘炒香的味道，尚耐泡。：，有部分碎茶，均匀。</td>
+            <td>4368</td>
+            <td>329</td>
+            <td>4252</td>
+            <td>2950</td>
+        </tr>
+        <tr>
+            <td>百两茶</td>
+            <td>5.9</td>
+            <td>安化黑茶</td>
+            <td>湖南</td>
+            <td>黑茶</td>
+            <td>https://chaping.chayu.com/tea/1782</td>
+            <td>0</td>
+            <td>这款百两茶干茶就出现绿霉，存放极差，实在无法接受。且香气及滋味，也并不令人愉悦。<br>香气为蓼叶香，但刚开始冲泡时稍有沤味，且散去较慢，中也带青味、沤味及味；滋味中味也占主体，虽耐泡度较好，但口感不佳，也是无用。<br>整体协调性差，耐泡度较好。不推荐购买。</td>
+            <td>4368</td>
+            <td>329</td>
+            <td>4138</td>
+            <td>2883</td>
+        </tr>
+        <tr>
+            <td>百年矮脚乌龙茶</td>
+            <td>5.9</td>
+            <td>彬杰</td>
+            <td>福建</td>
+            <td>乌龙</td>
+            <td>https://chaping.chayu.com/tea/504</td>
+            <td>0</td>
+            <td>干茶：条索较为</td>
+            <td>4368</td>
+            <td>630</td>
+            <td>4265</td>
+            <td>3271</td>
+        </tr>
+        <tr>
+            <td>陈香大红袍</td>
+            <td>5.9</td>
+            <td>北岩</td>
+            <td>福建</td>
+            <td>乌龙</td>
+            <td>https://chaping.chayu.com/tea/766</td>
+            <td>0</td>
+            <td>干茶：干茶色泽乌褐，较油，洁净度高，无夹杂物，较为，略带少量碎叶，基本符合外形品质特征。汤色：汤色橙黄明亮，颜色一二泡较深，三泡开始变浅。气味：略带陈香，味重，略有烟味，前两泡香气尚明显，持久度较好。滋味：滋味淡薄，前两泡就出现水味，回甘极不明显，收敛性差，不耐泡。：颜色乌褐发暗，欠匀，带少量红叶，叶片粗老，叶质较薄，柔软度不够，较硬。</td>
+            <td>4368</td>
+            <td>630</td>
+            <td>4229</td>
+            <td>3020</td>
+        </tr>
+        <tr>
+            <td>正山小种红茶</td>
+            <td>5.8</td>
+            <td>福牌</td>
+            <td>福建</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/283</td>
+            <td>0</td>
+            <td>干茶：条形茶，条索较为松散，身骨不</td>
+            <td>4377</td>
+            <td>791</td>
+            <td>4252</td>
+            <td>2357</td>
+        </tr>
+        <tr>
+            <td>武夷水仙</td>
+            <td>5.8</td>
+            <td>福牌</td>
+            <td>福建</td>
+            <td>乌龙</td>
+            <td>https://chaping.chayu.com/tea/365</td>
+            <td>0</td>
+            <td>干茶：基本符合武夷水仙的外形特征，但</td>
+            <td>4377</td>
+            <td>633</td>
+            <td>4209</td>
+            <td>3098</td>
+        </tr>
+        <tr>
+            <td>明前特级毛峰罐装</td>
+            <td>5.8</td>
+            <td>春伦</td>
+            <td>福建</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/110</td>
+            <td>0</td>
+            <td>干茶：外形笔直，条索较为粗松，大小不一，有</td>
+            <td>4377</td>
+            <td>852</td>
+            <td>4104</td>
+            <td>3538</td>
+        </tr>
+        <tr>
+            <td>碧螺春</td>
+            <td>5.8</td>
+            <td>巴陵春</td>
+            <td>湖南</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/386</td>
+            <td>0</td>
+            <td>干茶：干茶条索紧结，卷曲似螺，基本不</td>
+            <td>4377</td>
+            <td>852</td>
+            <td>4229</td>
+            <td>2596</td>
+        </tr>
+        <tr>
+            <td>藏茶传人黑茶</td>
+            <td>5.8</td>
+            <td>兄弟友谊</td>
+            <td>四川</td>
+            <td>黑茶</td>
+            <td>https://chaping.chayu.com/tea/231</td>
+            <td>0</td>
+            <td>干茶：干茶无毫，松紧度较合适，色泽棕褐油，尚，尚，有粗梗。汤色：汤色第一泡橙黄尚明亮，第二泡橙红尚明亮；符合这款茶的汤色。气味：有味，略带有陈香，杂味在第三泡消散，持久度较差。滋味：醇和，有凉茶的味道，甜味极淡薄，不耐泡。：油明亮，完全不含芽，较柔软，老嫩不一，细碎。</td>
+            <td>4377</td>
+            <td>332</td>
+            <td>4104</td>
+            <td>2110</td>
+        </tr>
+        <tr>
+            <td>金芳高山铁观音</td>
+            <td>5.7</td>
+            <td>金芳</td>
+            <td>福建</td>
+            <td>乌龙</td>
+            <td>https://chaping.chayu.com/tea/621</td>
+            <td>0</td>
+            <td>干茶：颗粒型，较紧结、尚</td>
+            <td>4382</td>
+            <td>634</td>
+            <td>4218</td>
+            <td>3146</td>
+        </tr>
+        <tr>
+            <td>碧螺春</td>
+            <td>5.6</td>
+            <td>中闽飘香</td>
+            <td>浙江</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/162</td>
+            <td>0</td>
+            <td>干茶：造型特色不明显，且粗松，整碎度差。汤色：汤色变化正常，但汤色不明亮。气味：香气为栗香</td>
+            <td>4383</td>
+            <td>854</td>
+            <td>4229</td>
+            <td>2246</td>
+        </tr>
+        <tr>
+            <td>北纬28度铁观音散茶250浓香型T29</td>
+            <td>5.5</td>
+            <td>清雅源</td>
+            <td>福建</td>
+            <td>乌龙</td>
+            <td>https://chaping.chayu.com/tea/543</td>
+            <td>0</td>
+            <td>干茶：干茶色泽黄褐，较紧结</td>
+            <td>4384</td>
+            <td>635</td>
+            <td>4138</td>
+            <td>3072</td>
+        </tr>
+        <tr>
+            <td>九曲红梅</td>
+            <td>5.5</td>
+            <td>聚韵轩</td>
+            <td>浙江</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/294</td>
+            <td>0</td>
+            <td>干茶：条索是红茶的，有梗，较</td>
+            <td>4384</td>
+            <td>792</td>
+            <td>4229</td>
+            <td>3263</td>
+        </tr>
+        <tr>
+            <td>蝴蝶牌茉莉花茶</td>
+            <td>5.5</td>
+            <td>中茶</td>
+            <td>福建</td>
+            <td>花茶</td>
+            <td>https://chaping.chayu.com/tea/248</td>
+            <td>0</td>
+            <td>干茶：条索尚紧结，欠均齐，褐绿尚油</td>
+            <td>4384</td>
+            <td>214</td>
+            <td>4252</td>
+            <td>2217</td>
+        </tr>
+        <tr>
+            <td>花香奇兰</td>
+            <td>5.4</td>
+            <td>福牌</td>
+            <td>福建</td>
+            <td>乌龙</td>
+            <td>https://chaping.chayu.com/tea/363</td>
+            <td>0</td>
+            <td>干茶：尚为</td>
+            <td>4387</td>
+            <td>636</td>
+            <td>4173</td>
+            <td>1934</td>
+        </tr>
+        <tr>
+            <td>铁观音</td>
+            <td>4.3</td>
+            <td>蓝峰</td>
+            <td>福建</td>
+            <td>乌龙</td>
+            <td>https://chaping.chayu.com/tea/630</td>
+            <td>0</td>
+            <td>干茶：稍卷曲，不</td>
+            <td>4398</td>
+            <td>639</td>
+            <td>4269</td>
+            <td>1314</td>
+        </tr>
+        <tr>
+            <td>RAN WATTE</td>
+            <td>3.6</td>
+            <td>Dilmah</td>
+            <td>国外</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/243</td>
+            <td>0</td>
+            <td>干茶：夹杂绿叶，部分干茶不成形，整碎净度差，干茶外形存在明显缺陷。汤色：汤色金黄，茶汤浑浊。气味：明显，几乎没有红茶香气。滋味：滋味近似青茶，青，淡薄。：不一致，老嫩不一，度差。</td>
+            <td>4399</td>
+            <td>794</td>
+            <td>4295</td>
+            <td>1120</td>
+        </tr>
+        <tr>
+            <td>丰园阁浓香特级铁观音</td>
+            <td>3.2</td>
+            <td>丰园阁</td>
+            <td>福建</td>
+            <td>乌龙</td>
+            <td>https://chaping.chayu.com/tea/618</td>
+            <td>0</td>
+            <td>干茶：螺钉状，条索尚紧，墨绿色、黄绿，颜色花杂，色泽较暗，欠匀齐，不符合浓香</td>
+            <td>4400</td>
+            <td>640</td>
+            <td>4308</td>
+            <td>1457</td>
+        </tr>
+        <tr>
+            <td>贵州生态黑茶</td>
+            <td>1.0</td>
+            <td>过江龙</td>
+            <td>贵州</td>
+            <td>黑茶</td>
+            <td>https://chaping.chayu.com/tea/3725</td>
+            <td>0</td>
+            <td>茶饼原料粗老，叶片一打开有好多小虫子在爬，表面有绿色未知菌斑、菌丝，。闻起来有刺鼻的酸馊味，喝起来是严重的尘土味，不建议饮用！！</td>
+            <td>4401</td>
+            <td>336</td>
+            <td>4376</td>
+            <td>489</td>
+        </tr>
+        <tr>
+            <td>NO1有机龙井茶</td>
+            <td>5.3</td>
+            <td>茶客易佰</td>
+            <td>浙江</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/602</td>
+            <td>0</td>
+            <td>干茶：扁平较</td>
+            <td>4388</td>
+            <td>855</td>
+            <td>4218</td>
+            <td>2537</td>
+        </tr>
+        <tr>
+            <td>淳真铁观音清香型</td>
+            <td>5.2</td>
+            <td>九峰茗茶</td>
+            <td>福建</td>
+            <td>乌龙</td>
+            <td>https://chaping.chayu.com/tea/624</td>
+            <td>0</td>
+            <td>干茶：色泽墨绿，尚</td>
+            <td>4389</td>
+            <td>637</td>
+            <td>4218</td>
+            <td>2082</td>
+        </tr>
+        <tr>
+            <td>北港毛尖</td>
+            <td>5.2</td>
+            <td>习饮</td>
+            <td>湖南</td>
+            <td>黄茶</td>
+            <td>https://chaping.chayu.com/tea/984</td>
+            <td>0</td>
+            <td>     单芽为主，白毫明显，芽叶短小</td>
+            <td>4389</td>
+            <td>172</td>
+            <td>4062</td>
+            <td>2594</td>
+        </tr>
+        <tr>
+            <td>七子茯砖茶</td>
+            <td>5.2</td>
+            <td>泾渭茯茶</td>
+            <td>陕西</td>
+            <td>黑茶</td>
+            <td>https://chaping.chayu.com/tea/230</td>
+            <td>0</td>
+            <td>干茶：这款茶汤色以橙红尚明亮为主，有刺鼻味，陈香味弱，滋味淡薄。汤色：前两泡橙红尚明亮，较符合这款茶的汤色。气味：主要为陈香，有刺鼻异味。滋味：醇和，有凉茶的味道，甜味极淡薄，不耐泡。：较为粗老，较油明亮，较均匀，略偏重。</td>
+            <td>4389</td>
+            <td>333</td>
+            <td>4195</td>
+            <td>2035</td>
+        </tr>
+        <tr>
+            <td>政和茉莉银针</td>
+            <td>5.1</td>
+            <td>白韵</td>
+            <td>福建</td>
+            <td>花茶</td>
+            <td>https://chaping.chayu.com/tea/330</td>
+            <td>0</td>
+            <td>干茶：条索是典型茉莉花茶造型特色，全为芽头，满披白毫，含嫩黄黄干。汤色：汤色淡黄，尚明亮。气味：茉莉花香鲜灵</td>
+            <td>4392</td>
+            <td>215</td>
+            <td>4195</td>
+            <td>1098</td>
+        </tr>
+        <tr>
+            <td>1368茯砖茶</td>
+            <td>4.9</td>
+            <td>泾渭茯茶</td>
+            <td>陕西</td>
+            <td>黑茶</td>
+            <td>https://chaping.chayu.com/tea/229</td>
+            <td>0</td>
+            <td>干茶：干茶粗老带较多粗老梗，夹杂有非茶类。汤色：汤色橙黄明亮，符合这款茶的汤色。气味：有不愉快的刺鼻味，异味浓重，香气持久度较差。滋味：醇和，无回甘，有比较淡的甜味，不耐泡。：显示出用料粗老，且不均匀。</td>
+            <td>4393</td>
+            <td>334</td>
+            <td>4247</td>
+            <td>1649</td>
+        </tr>
+        <tr>
+            <td>青砖茶</td>
+            <td>4.9</td>
+            <td>赵李桥</td>
+            <td>湖北</td>
+            <td>黑茶</td>
+            <td>https://chaping.chayu.com/tea/233</td>
+            <td>0</td>
+            <td>干茶：干茶未，叶色光绿褐色，有部分碎末，有很老的粗梗，未含非茶类。汤色：第一泡黄色明亮，第二泡橙黄明亮，符合该茶类的汤色。气味：有刺鼻异味，略带有陈香，异味久不散，持久度较差。滋味：尚醇，有回甘，甜味淡，不耐泡。：粗老梗多，有细碎茶，较均匀。</td>
+            <td>4393</td>
+            <td>334</td>
+            <td>4252</td>
+            <td>1435</td>
+        </tr>
+        <tr>
+            <td>2011年壩糯金枝老树熟饼</td>
+            <td>4.9</td>
+            <td>俊仲号</td>
+            <td>云南</td>
+            <td>普洱</td>
+            <td>https://chaping.chayu.com/tea/767</td>
+            <td>0</td>
+            <td>干茶：干茶色棕褐欠油</td>
+            <td>4393</td>
+            <td>928</td>
+            <td>4252</td>
+            <td>1440</td>
+        </tr>
+        <tr>
+            <td>祁门红茶</td>
+            <td>4.8</td>
+            <td>艺福堂</td>
+            <td>安徽</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/24</td>
+            <td>0</td>
+            <td>干茶：</td>
+            <td>4396</td>
+            <td>793</td>
+            <td>4252</td>
+            <td>1224</td>
+        </tr>
+        <tr>
+            <td>花语茗韵清香铁观音</td>
+            <td>4.8</td>
+            <td>八马</td>
+            <td>福建</td>
+            <td>乌龙</td>
+            <td>https://chaping.chayu.com/tea/83</td>
+            <td>0</td>
+            <td>干茶：有非茶类夹杂物。；汤色：无异味，有清纯兰香。；气味：欠纯，微</td>
+            <td>4396</td>
+            <td>638</td>
+            <td>4229</td>
+            <td>1097</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+
+</body>
+</html>

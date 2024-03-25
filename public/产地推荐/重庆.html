@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+</head>
+<body>
+
+        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="0e7a9b63d5ad45c58ad6c5fcd73126fc" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > 重庆</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>标题</th>
+            <th>评分</th>
+            <th>品牌</th>
+            <th>产地</th>
+            <th>茶类</th>
+            <th>详情链接</th>
+            <th>荐指数</th>
+            <th>总评</th>
+            <th>茶语排行</th>
+            <th>茶语分类排行</th>
+            <th>综合评分排行</th>
+            <th>热搜排行</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>定心 决策</td>
+            <td>9.2</td>
+            <td>重茶集团</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1087</td>
+            <td>4</td>
+            <td>一款高等级的绿茶，有着非常鲜明的鲜嫩型绿茶个性。干茶带清香，香气带着非常鲜嫩的浓豆香和嫩玉米香气，茶汤内质丰富，汤水细柔香甜，滋味清鲜高扬、甜度高、微微有涩，回甘生津明显持久。<br></td>
+            <td>29</td>
+            <td>3</td>
+            <td>24</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>巴南银针</td>
+            <td>9.1</td>
+            <td>巴南银针</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1079</td>
+            <td>4</td>
+            <td>选料细嫩，从干茶到汤色到</td>
+            <td>65</td>
+            <td>9</td>
+            <td>47</td>
+            <td>540</td>
+        </tr>
+        <tr>
+            <td>定心</td>
+            <td>9.0</td>
+            <td>重茶集团</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1059</td>
+            <td>4</td>
+            <td>干茶几乎为全芽头，芽头整齐，主要呈现漂亮的嫩绿色，外披细密白毫，有少量芽头带有</td>
+            <td>131</td>
+            <td>34</td>
+            <td>24</td>
+            <td>799</td>
+        </tr>
+        <tr>
+            <td>永川秀芽</td>
+            <td>9.0</td>
+            <td>云升茶业</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1115</td>
+            <td>4</td>
+            <td>干茶紧细，色泽深绿显翠，有银白色的芽毫。清香细腻，带嫩香和花果香，香气浓郁、通透，茶汤入口鲜醇爽口，齿间微有感，但回甘迅速强劲。第二泡茶汤味道掉了一些，但汤感甜糯，很舒适。黄绿，略有绿色的大叶片。</td>
+            <td>131</td>
+            <td>34</td>
+            <td>231</td>
+            <td>654</td>
+        </tr>
+        <tr>
+            <td>巴渝红</td>
+            <td>8.9</td>
+            <td>重茶集团</td>
+            <td>重庆</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/3862</td>
+            <td>3</td>
+            <td>超出预料的优质红茶，蜜香，花香尤其突出。<br>外扬的新鲜花香、蜜香很好融在一起，回味有浓郁果香；饮后喉咙，鼻子皆有明显香气，后期香气下降较快。<br>茶汤爽滑，鲜度也和香气一样相当突出，甜感适度，涩感在冲泡后期越来越明显，略略影响协调。<br></td>
+            <td>255</td>
+            <td>26</td>
+            <td>231</td>
+            <td>1285</td>
+        </tr>
+        <tr>
+            <td>永川秀芽特级</td>
+            <td>8.9</td>
+            <td>云升茶业</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2593</td>
+            <td>3</td>
+            <td>一款选料不错，制作工艺到位的绿茶。<br>该茶香气高扬，带有悦人的炒豆香，茶汤含香好。总体滋味饱满，鲜爽甘甜，回甘生津好，回味持久。<br>总体协调性好，耐冲泡度较好。<br></td>
+            <td>255</td>
+            <td>62</td>
+            <td>764</td>
+            <td>731</td>
+        </tr>
+        <tr>
+            <td>巴南银针</td>
+            <td>8.9</td>
+            <td>重茶集团</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/4537</td>
+            <td>3</td>
+            <td>一款从原料到加工均很出色的高等级绿茶。<br>这款绿茶几乎全芽，挺直，显白毫，嫩度和油润感都很好，唯一不足的是略欠鲜活感，开汤后内质汤色浅黄泛绿，明亮清澈，香气鲜爽，嫩香，细腻的甜香，略带微微花香，滋味清鲜，甘爽，香气较为持久。</td>
+            <td>255</td>
+            <td>62</td>
+            <td>4386</td>
+            <td>4326</td>
+        </tr>
+        <tr>
+            <td>定心·决策</td>
+            <td>8.9</td>
+            <td>重茶集团</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/4282</td>
+            <td>3</td>
+            <td>茶叶的选料十分精细，纯芽头制作，口感鲜甜爽口。<br>茶叶香气清晰明显，汤中有明显的炒豆香，冲泡后期显现出植物的清香，留香较为持久；茶汤有饱满度，汤感有厚度，滋味鲜甜，有爽口度，饮后生津快速，有喉韵。稍有不足在于后期带有轻微的苦味，但也能快速化开。<br></td>
+            <td>255</td>
+            <td>62</td>
+            <td>231</td>
+            <td>709</td>
+        </tr>
+        <tr>
+            <td>定心决策</td>
+            <td>8.9</td>
+            <td>重茶集团</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/4302</td>
+            <td>3</td>
+            <td>茶叶的选料十分精细，纯芽头制作，口感鲜甜爽口。<br>茶叶香气清晰明显，汤中有明显的炒豆香，冲泡后期显现出植物的清香，留香较为持久；茶汤有饱满度，汤感有厚度，滋味鲜甜，有爽口度，饮后生津快速，有喉韵。稍有不足在于后期带有轻微的苦味，但也能快速化开。</td>
+            <td>255</td>
+            <td>62</td>
+            <td>119</td>
+            <td>246</td>
+        </tr>
+        <tr>
+            <td>永川秀芽</td>
+            <td>8.8</td>
+            <td>云升茶业</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/3351</td>
+            <td>3</td>
+            <td>一款内质鲜甜、清爽的绿茶。<br>干茶条索挺秀，白毫显露，卖相佳。冲泡出水，鲜甜浓郁，甜栗香明显，入口顺滑，滋味清爽，有回甘生津，最舒适的是饮后口腔有持续的清凉之感。耐泡度尚佳。<br></td>
+            <td>409</td>
+            <td>101</td>
+            <td>432</td>
+            <td>221</td>
+        </tr>
+        <tr>
+            <td>特级永川秀芽</td>
+            <td>8.8</td>
+            <td>君子水</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/4375</td>
+            <td>3</td>
+            <td>这是一款看起来不错的茶。从干茶到颜色到叶底，看起来都很不错，只可惜喝起来就差强人意了。第一泡出现的青味充分暴露了这款茶在加工上的短板，杀青不足。继而一路的强烈苦涩远远压过了茶本身的鲜醇，另一方面，耐泡度和香气的持久性也并不优秀。</td>
+            <td>409</td>
+            <td>101</td>
+            <td>231</td>
+            <td>1150</td>
+        </tr>
+        <tr>
+            <td>香叙</td>
+            <td>8.8</td>
+            <td>重茶集团</td>
+            <td>重庆</td>
+            <td>花茶</td>
+            <td>https://chaping.chayu.com/tea/1095</td>
+            <td>3</td>
+            <td>这是一款茉莉花香占据主导地位的花茶，有川渝一带典型花茶特色。该款茶用料细嫩，整体花香浓郁纯净，茶汤有一定鲜爽度，甜味明显、略带涩、难化开，后期有不明显回甘。</td>
+            <td>409</td>
+            <td>17</td>
+            <td>119</td>
+            <td>543</td>
+        </tr>
+        <tr>
+            <td>巴南银针</td>
+            <td>8.8</td>
+            <td>重茶集团</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/3545</td>
+            <td>3</td>
+            <td>这款绿茶香气明显，清香和栗香融入茶汤中，滋味鲜爽甘甜。口腔留有甜润感，具有很好的品饮舒适度。</td>
+            <td>409</td>
+            <td>101</td>
+            <td>764</td>
+            <td>372</td>
+        </tr>
+        <tr>
+            <td>永川秀芽</td>
+            <td>8.7</td>
+            <td>棠城一品</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/3360</td>
+            <td>3</td>
+            <td>一款内质鲜爽、回甘生津好的绿茶。<br>初看干茶，卖相就十分诱人，茶条纤细，美观度高。冲泡出水，茶香带有青草的芬芳，如有春天的气息。茶汤清甜，入口顺滑，滋味鲜爽度高，回甘生津好，最舒适的是饮后口腔有持续的甘甜之感。但耐泡度欠佳。<br></td>
+            <td>635</td>
+            <td>150</td>
+            <td>1177</td>
+            <td>576</td>
+        </tr>
+        <tr>
+            <td>三峡佛印·灵秀</td>
+            <td>8.7</td>
+            <td>三峡</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1935</td>
+            <td>3</td>
+            <td>这是一款内质丰富，工艺成熟，能够体现地域特征的高等级早春绿茶。<br>产品条索纤细修长，汤色黄绿油。香气馥郁柔和，鲜爽的嫩香、成熟的花香和淡淡的熟板栗香交织。滋味饱满清爽，内质丰富，迅速，喉间清凉甜。但是产品本身的感较高，影响茶汤协调。</td>
+            <td>635</td>
+            <td>150</td>
+            <td>1681</td>
+            <td>2337</td>
+        </tr>
+        <tr>
+            <td>永川秀芽</td>
+            <td>8.7</td>
+            <td>一壶春</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/690</td>
+            <td>3</td>
+            <td>一款还带着</td>
+            <td>635</td>
+            <td>150</td>
+            <td>764</td>
+            <td>1880</td>
+        </tr>
+        <tr>
+            <td>巴渠雪芽</td>
+            <td>8.7</td>
+            <td>巴渠云雾</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/3512</td>
+            <td>3</td>
+            <td>一款香气清新，外形优异，口感生涩的绿茶。<br>整体香气青豆香明显，有生味，融入茶汤，令人不悦；茶汤厚度一般，口感细腻顺滑，滋味鲜活，有爽口度，入口有生涩感，其中的涩感化开快，饮后两颊留有轻微的苦味，生津细密而持久，有回甘。</td>
+            <td>635</td>
+            <td>150</td>
+            <td>231</td>
+            <td>2175</td>
+        </tr>
+        <tr>
+            <td>巴南银针</td>
+            <td>8.6</td>
+            <td>重茶集团</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/4409</td>
+            <td>3</td>
+            <td>一款原料细嫩、外形秀美，青气较重的绿茶。<br>外形很讨喜，单芽、细长、满披白毫；香气很清淡，豆香和青香为主，比较舒服，茶汤中青香比较显；滋味清淡、鲜甜，淡甜度退的较快，稍带苦涩感，回甘生津缓慢持久。<br></td>
+            <td>953</td>
+            <td>221</td>
+            <td>764</td>
+            <td>919</td>
+        </tr>
+        <tr>
+            <td>知竹</td>
+            <td>8.6</td>
+            <td>苗品记</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/900</td>
+            <td>3</td>
+            <td>细紧，均匀的小芽头，白色银毫均匀分布，汤色浅黄，略暗。香气为持久，让人愉悦的的嫩玉米甜香，茶汤甘醇鲜爽，</td>
+            <td>953</td>
+            <td>221</td>
+            <td>432</td>
+            <td>605</td>
+        </tr>
+        <tr>
+            <td>碧水天香</td>
+            <td>8.6</td>
+            <td>苗品记</td>
+            <td>重庆</td>
+            <td>花茶</td>
+            <td>https://chaping.chayu.com/tea/2301</td>
+            <td>3</td>
+            <td>该茉莉花茶的原料嫩度较高，但香气和滋味表现很普通。<br>干茶条索紧细挺直，芽头较多，显白毫，有较多的淡黄色茉莉花瓣，使用的原料嫩度较高。茉莉花香平和、持久度不佳。滋味清甜有鲜爽，茶汤有一定厚度，但是带涩且化得较快，回甘清浅。<br></td>
+            <td>953</td>
+            <td>46</td>
+            <td>1177</td>
+            <td>648</td>
+        </tr>
+        <tr>
+            <td>一级仙女红毛峰</td>
+            <td>8.5</td>
+            <td>仙女红</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1864</td>
+            <td>3</td>
+            <td>一款品质中档的绿茶。从外形看等级并不高，但内质表现良好。<br>此款茶主要以一芽二叶为原料，外形条索度略欠佳，香气清鲜，栗香浓郁高长，带甜香，较为持久。滋味醇和，有较高鲜爽度，汤里含有淡淡栗香，具收敛性，稍，有回甘。</td>
+            <td>1426</td>
+            <td>330</td>
+            <td>432</td>
+            <td>3442</td>
+        </tr>
+        <tr>
+            <td>特级工夫红茶</td>
+            <td>8.5</td>
+            <td>香叙</td>
+            <td>重庆</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/3935</td>
+            <td>3</td>
+            <td>这款红茶整体较甜美。<br>甜润的茶汤和纯净的香气相融，滋味厚度较好，汤中的甜香和甜果香较明显，口中有淡淡甜香停留，略有回甘生津。但是涩感略显，慢慢化开后口腔甘甜。茶叶的耐泡性一般，四泡就出现明显不协调感。<br></td>
+            <td>1426</td>
+            <td>207</td>
+            <td>1681</td>
+            <td>766</td>
+        </tr>
+        <tr>
+            <td>碧螺春C311</td>
+            <td>8.5</td>
+            <td>茶香春</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1735</td>
+            <td>3</td>
+            <td>这是一款原料尚细嫩，碧螺春品质特征鲜明，品质尚佳的一款大众绿茶产品。<br>该款产品外形条索墨绿，白毫较显，色泽细紧卷曲，尚</td>
+            <td>1426</td>
+            <td>330</td>
+            <td>1177</td>
+            <td>2907</td>
+        </tr>
+        <tr>
+            <td>渝云贡芽</td>
+            <td>8.5</td>
+            <td>渝云</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/3544</td>
+            <td>3</td>
+            <td>这款绿茶外形俊美，香气以嫩香和清香为主，茶汤略有鲜爽感，涩感不强但化开慢。</td>
+            <td>1426</td>
+            <td>330</td>
+            <td>2179</td>
+            <td>445</td>
+        </tr>
+        <tr>
+            <td>永川秀芽</td>
+            <td>8.4</td>
+            <td>云升茶业</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/4374</td>
+            <td>3</td>
+            <td>这一款有趣的茶，最佳感官体验的一泡居然出现在第四泡。第一泡到第三泡，有香有茶味，同时茶味里也携带着明显的苦涩，四泡滋味大幅度下降。</td>
+            <td>1866</td>
+            <td>410</td>
+            <td>764</td>
+            <td>512</td>
+        </tr>
+        <tr>
+            <td>秀芽特种绿茶</td>
+            <td>8.4</td>
+            <td>云升茶业</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/3352</td>
+            <td>3</td>
+            <td>一款栗香高昂持久度稍差，滋味鲜爽度较一般，带苦涩味的绿茶。<br>栗香显露，清鲜持久。茶汤甘甜，稍有涩感，总体协调性较好。<br></td>
+            <td>1866</td>
+            <td>410</td>
+            <td>2590</td>
+            <td>676</td>
+        </tr>
+        <tr>
+            <td>碧水天香自用装</td>
+            <td>8.4</td>
+            <td>苗品记</td>
+            <td>重庆</td>
+            <td>花茶</td>
+            <td>https://chaping.chayu.com/tea/897</td>
+            <td>3</td>
+            <td>茶叶细，</td>
+            <td>1866</td>
+            <td>83</td>
+            <td>3174</td>
+            <td>3262</td>
+        </tr>
+        <tr>
+            <td>巴渠毛尖</td>
+            <td>8.4</td>
+            <td>巴渠云雾</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/3513</td>
+            <td>3</td>
+            <td>一款外形不错，香气不清爽，内质平庸的绿茶。<br>初看干茶，卖相较为诱人，茶条纤细，美观度高。冲泡出水，浓浓的烟香味，让人感觉不爽。茶汤清甜，较为鲜爽，涩感明显，回甘生津弱。耐泡度正常。<br></td>
+            <td>1866</td>
+            <td>410</td>
+            <td>1681</td>
+            <td>2094</td>
+        </tr>
+        <tr>
+            <td>定心</td>
+            <td>8.4</td>
+            <td>重茶集团</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/4538</td>
+            <td>3</td>
+            <td>虽然选料等级高，但是同时有生青和高火缺陷的茶。<br>这款绿茶全芽，扁平，挺直，色泽黄绿明亮，缺点是不鲜活，有因水汽过多，烘干时留下的爆点。开汤后内质汤色浅黄绿明亮，香气清鲜，有生味，带高火味。滋味生味重，略涩，不耐泡。</td>
+            <td>1866</td>
+            <td>410</td>
+            <td>4386</td>
+            <td>2712</td>
+        </tr>
+        <tr>
+            <td>巴南银针</td>
+            <td>8.4</td>
+            <td>巴南银针</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/494</td>
+            <td>3</td>
+            <td>干茶：干茶扁直，尚紧结</td>
+            <td>1866</td>
+            <td>410</td>
+            <td>1177</td>
+            <td>748</td>
+        </tr>
+        <tr>
+            <td>重庆一泡红</td>
+            <td>8.4</td>
+            <td>钟灵</td>
+            <td>重庆</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/4090</td>
+            <td>3</td>
+            <td>这款茶香气较高，带蜜甜香，但有较明显的烟气，汤香为甜香，蜜香融入口腔，且留于杯底，滋味柔滑、甜润，但略轻飘，舌面有涩麻感，舌根微苦，生津回甘，饮后喉咙干涩。</td>
+            <td>1866</td>
+            <td>284</td>
+            <td>1681</td>
+            <td>2077</td>
+        </tr>
+        <tr>
+            <td>风雨晓露绿茶</td>
+            <td>8.3</td>
+            <td>三峡</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/3588</td>
+            <td>3</td>
+            <td>这是一款滋味不错，香气不足的绿茶。<br>干茶的条索紧直较粗壮，茶汤黄绿，较明亮。前期豆香明显，带青草气；后期豆香下降迅速，青草气占主要。滋味较浓郁，有一定甘甜度和鲜爽度，青草气略微入汤。<br></td>
+            <td>2302</td>
+            <td>464</td>
+            <td>3649</td>
+            <td>2312</td>
+        </tr>
+        <tr>
+            <td>渝贵人蜜香红茶</td>
+            <td>8.2</td>
+            <td>苗品记</td>
+            <td>重庆</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2631</td>
+            <td>3</td>
+            <td>这款红茶的原料较好，但在香气上存在明显缺陷，影响品饮。<br>色泽乌黑较油润，条索紧细短碎；香气以焙火香为主；茶汤甘爽顺滑，回甘生津明显。<br>焦糊味突出，掩盖了茶叶本身香气，茶汤中也融入了大量焦糊味。</td>
+            <td>2669</td>
+            <td>449</td>
+            <td>2937</td>
+            <td>3878</td>
+        </tr>
+        <tr>
+            <td>一级有机红茶</td>
+            <td>8.2</td>
+            <td>仙女红</td>
+            <td>重庆</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/1866</td>
+            <td>3</td>
+            <td>一款整体表现平平的甜香型红茶。<br>外形条索粗壮欠，选料的等级并没有完全达到一级红茶的标准，香气，焦糖香浓郁持久，滋味较醇和，有较高甜度，但汤质偏薄，整体协调度一般。</td>
+            <td>2669</td>
+            <td>449</td>
+            <td>2179</td>
+            <td>2930</td>
+        </tr>
+        <tr>
+            <td>翡翠秀芽</td>
+            <td>8.2</td>
+            <td>苗品记</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/3457</td>
+            <td>3</td>
+            <td>这是一款香气滋味表现平平的炒青绿茶。<br>香气滋味没有大缺陷。香气清淡，清甜香持续到尾水。茶汤厚度偏薄，滋味清甜、带鲜，回味持续时间短。整体的涩感略显，慢慢化开后有回甘生津。</td>
+            <td>2669</td>
+            <td>534</td>
+            <td>2590</td>
+            <td>2577</td>
+        </tr>
+        <tr>
+            <td>秀芽</td>
+            <td>8.2</td>
+            <td>紫芸</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/2178</td>
+            <td>3</td>
+            <td>一款中规中矩，原料成熟度较高的绿茶。<br>该茶茶叶色泽墨绿，略有白毫，条索紧直，香气清香但不持久。滋味爽口，但是带涩味，有回甘。<br></td>
+            <td>2669</td>
+            <td>534</td>
+            <td>2179</td>
+            <td>1057</td>
+        </tr>
+        <tr>
+            <td>山城花茶</td>
+            <td>8.2</td>
+            <td>益丰茶叶</td>
+            <td>重庆</td>
+            <td>花茶</td>
+            <td>https://chaping.chayu.com/tea/1693</td>
+            <td>3</td>
+            <td>此花茶用料较老，花香较浓，偏闷。<br>苦偏重，不退。暗沉。</td>
+            <td>2669</td>
+            <td>122</td>
+            <td>3746</td>
+            <td>3934</td>
+        </tr>
+        <tr>
+            <td>极川100克永川秀芽</td>
+            <td>8.2</td>
+            <td>云岭</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/691</td>
+            <td>3</td>
+            <td>干茶：外形条索，紧结细长，略有少量弯曲叶片，总体还是较直，白毫明显，光</td>
+            <td>2669</td>
+            <td>534</td>
+            <td>1681</td>
+            <td>2655</td>
+        </tr>
+        <tr>
+            <td>特级茉莉花茶</td>
+            <td>8.1</td>
+            <td>云升茶业</td>
+            <td>重庆</td>
+            <td>花茶</td>
+            <td>https://chaping.chayu.com/tea/3347</td>
+            <td>3</td>
+            <td>此款茶为档次较低的花茶，原料粗老，夹杂花瓣。香气轻飘，有粗味，且能嗅到茶坯杀青不足的青臭味。滋味淡薄，苦涩味明显，有回甘。</td>
+            <td>2971</td>
+            <td>136</td>
+            <td>3969</td>
+            <td>4011</td>
+        </tr>
+        <tr>
+            <td>仙女红</td>
+            <td>8.1</td>
+            <td>天尺</td>
+            <td>重庆</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/2597</td>
+            <td>3</td>
+            <td>这是一款原料等级不高，在制茶工艺上略有缺陷的红茶。<br>甜香和花香浓郁，滋味甘爽，回甘生津较好。但有明显的青味并且汤内也感受得到，茶叶叶底颜色花杂。</td>
+            <td>2971</td>
+            <td>512</td>
+            <td>2590</td>
+            <td>911</td>
+        </tr>
+        <tr>
+            <td>雀舌</td>
+            <td>8.1</td>
+            <td>云升茶业</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/1620</td>
+            <td>3</td>
+            <td>这是一款选用单芽制成，但芽头枯瘦粗老，品质表现欠佳的大众商品绿茶。<br>该款产品原料选用单芽制茶，干茶色泽翠绿尚匀，芽头细长略显枯瘦。汤色黄绿明亮。香气呈现出近似于竹叶香气的清香。茶汤内含香，入口清甜，苦底较重，略显青、单薄。</td>
+            <td>2971</td>
+            <td>594</td>
+            <td>2179</td>
+            <td>3077</td>
+        </tr>
+        <tr>
+            <td>渝贵人蜜香红茶</td>
+            <td>8.0</td>
+            <td>苗品记</td>
+            <td>重庆</td>
+            <td>红茶</td>
+            <td>https://chaping.chayu.com/tea/4183</td>
+            <td>3</td>
+            <td>一款缺点明显，工艺不足的红茶。<br>冲泡出来，最刺激的就是有明显的焦糊味，且焦糊味还入茶汤中，影响茶汤的口感，茶汤本身甘爽、顺滑，滋味一般，最大的缺点还是工艺上导致的焦糊味，实在让人不喜欢。<br><br></td>
+            <td>3214</td>
+            <td>574</td>
+            <td>2937</td>
+            <td>962</td>
+        </tr>
+        <tr>
+            <td>永川秀芽·特川</td>
+            <td>7.9</td>
+            <td>云岭</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/3589</td>
+            <td>2</td>
+            <td>这是一款品质较差，滋味寡淡、香气低闷的绿茶。<br>茶叶粗细颜色不匀，匀整度较差。栗香低淡，持久度差，青草气扑面而来，且入汤，香气低闷。茶汤滋味寡淡，略有鲜爽和甘甜感。<br></td>
+            <td>3463</td>
+            <td>680</td>
+            <td>3746</td>
+            <td>2270</td>
+        </tr>
+        <tr>
+            <td>永川秀芽·听水</td>
+            <td>7.9</td>
+            <td>苗品记</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/3590</td>
+            <td>2</td>
+            <td>这是一款滋味寡淡，香气异味的绿茶。<br>香气不高，且不纯正，有异味，栗香下降迅速，让人很不舒服。滋味平淡，茶汤不清爽，饮后有一种水闷感，且异味入汤。<br></td>
+            <td>3463</td>
+            <td>680</td>
+            <td>3916</td>
+            <td>2161</td>
+        </tr>
+        <tr>
+            <td>龙珠茶</td>
+            <td>7.8</td>
+            <td>龙珠茶</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/3542</td>
+            <td>2</td>
+            <td>这款龙珠茶香气比较有特色，整体风格清鲜，干果香、鲜香、花香复合，茶汤有甜度和鲜爽感。但是原料较为粗大，加工时爆点明显，叶底带有闷酸等缺陷。</td>
+            <td>3624</td>
+            <td>716</td>
+            <td>3649</td>
+            <td>406</td>
+        </tr>
+        <tr>
+            <td>滴翠剑名有机绿茶翡翠吉</td>
+            <td>7.6</td>
+            <td>滴翠剑名</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/508</td>
+            <td>2</td>
+            <td>干茶：芽头扁直光滑，色泽黄绿，</td>
+            <td>3838</td>
+            <td>762</td>
+            <td>2937</td>
+            <td>3434</td>
+        </tr>
+        <tr>
+            <td>茉莉花茶</td>
+            <td>7.0</td>
+            <td>云升茶业</td>
+            <td>重庆</td>
+            <td>花茶</td>
+            <td>https://chaping.chayu.com/tea/2305</td>
+            <td>2</td>
+            <td>此款花茶原料稍粗老，是一款品质较差的茉莉花茶。<br>干茶匀整度较差，汤色黄，茶汤中悬浮较多毫，亮度较差；茉莉花香较弱，且透出茶坯本身的粗老气，不细腻、不持久。茶汤滋味浓厚，但有粗老味，汤里含淡淡茉莉花香。<br>整体协调性较差，耐泡度一般。<br></td>
+            <td>4176</td>
+            <td>197</td>
+            <td>3746</td>
+            <td>887</td>
+        </tr>
+        <tr>
+            <td>茉莉花茶</td>
+            <td>6.8</td>
+            <td>西农</td>
+            <td>重庆</td>
+            <td>花茶</td>
+            <td>https://chaping.chayu.com/tea/707</td>
+            <td>0</td>
+            <td>干茶：干茶呈暗褐色，无光泽，条索粗松，很不</td>
+            <td>4242</td>
+            <td>203</td>
+            <td>2937</td>
+            <td>2640</td>
+        </tr>
+        <tr>
+            <td>春绿明前特级绿茶</td>
+            <td>6.5</td>
+            <td>大观</td>
+            <td>重庆</td>
+            <td>绿茶</td>
+            <td>https://chaping.chayu.com/tea/553</td>
+            <td>0</td>
+            <td>干茶：颗粒状，条索较紧结，弯曲，较</td>
+            <td>4311</td>
+            <td>841</td>
+            <td>4209</td>
+            <td>3705</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+
+</body>
+</html>

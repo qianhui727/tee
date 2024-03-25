@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>第一个 ECharts 实例</title>
+  <!-- 引入 echarts.js -->
+  <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+</head>
+
+<body>
+  <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+  <div id="main" style="width: 900px; height:420px;"></div>
+  <script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+
+    // 指定图表的配置项和数据
+    option = {
+      tooltip: {
+        trigger: 'axis',
+        axisPointer: {            // 坐标轴指示器，坐标轴触发有效
+          type: 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+        }
+      },
+      legend: {
+        data: ['正面评价', '邮件营销', '负面评价', '视频广告', '搜索引擎', '百度', '谷歌', '必应', '其他']
+      },
+      grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+      },
+      xAxis: [
+        {
+          type: 'category',
+          data: ['茶汤', '口感', '泡度', '品质', '汤色', '外形']
+        }
+      ],
+      yAxis: [
+        {
+          type: 'value'
+        }
+      ],
+      series: [
+        {
+          name: '正面评价',
+          type: 'bar',
+          data: [77, 167, 28, 28, 170, 42, 140],
+          itemStyle: {
+            color: 'rgb(101, 128, 49)' // 改变颜色为红色
+          }
+        },
+        {
+          name: '负面评价',
+          type: 'bar',
+          stack: '广告',
+          data: [18, 80, 40, 50, 37, 14, 169],
+          itemStyle: {
+            color: 'rgb(176, 196, 222)' // 改变颜色为红色
+          }
+        },
+      ]
+    };
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+  </script>
+</body>
+
+</html>
